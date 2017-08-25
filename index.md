@@ -12,6 +12,7 @@ Under construction at the moment, come back later!
 ## My Projects
 - [mac-setup](https://github.com/hexalellogram/mac-setup) - Setup script for macOS
 - [hexalellogram.github.io](https://github.com/hexalellogram/hexalellogram.github.io) - This website
+- [Nexus 5 MultiROM Setup Documentation](https://gist.github.com/hexalellogram/facd2939e893f0e3a59a066fa67e2653) - My log of steps taken on my Nexus 5 with MultiROM
 
 ---
 
