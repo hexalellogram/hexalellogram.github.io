@@ -11,3 +11,12 @@ layout: default
 - Website: [hexalellogram.github.io](https://hexalellogram.github.io/)
 - Instagram: [hexalellogram](https://instagram.com/hexalellogram)
 - Twitter: [hexalellogram](https://twitter.com/hexalellogram)
+
+### Contact Form
+
+<form action="https://formspree.io/btsuyuki1@gmail.com"
+      method="POST">
+    <input type="text" name="name">
+    <input type="email" name="_replyto">
+    <input type="submit" value="Send">
+</form>
