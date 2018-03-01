@@ -17,6 +17,10 @@ layout: default
 <form action="https://formspree.io/btsuyuki1@gmail.com"
       method="POST">
     <input type="text" name="name">
+    <br>
+    <br>
     <input type="email" name="_replyto">
+    <br>
     <input type="submit" value="Send">
+    
 </form>
