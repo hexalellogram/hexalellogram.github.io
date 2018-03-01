@@ -24,7 +24,7 @@ Use the form below to send me an email.
     <input type="email" name="email" placeholder="Your email here">
     <br>
     <br>
-    <textarea name="message" placeholder="Your message here"></textarea>
+    <textarea name="message" rows="10" cols="100" placeholder="Your message here"></textarea>
     <br>
     <br>
     <input type="submit" value="Send">
