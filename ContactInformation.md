@@ -21,6 +21,9 @@ layout: default
     <input type="email" name="_replyto" placeholder="Your email here">
     <br>
     <br>
+    <textarea rows="10" cols="100" name="message" placeholder="Your message here"> </textarea>
+    <br>
+    <br>
     <input type="submit" value="Send">
     
 </form>
