@@ -24,4 +24,8 @@ make modifications, and submit a pull request.
 
 ---
 
+Last update: 3/1/18
+
+---
+
 Much thanks to the Jekyll and GitHub Pages documentation!
