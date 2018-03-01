@@ -19,7 +19,7 @@ layout: default
     <input type="text" name="name" placeholder="Your name here">
     <br>
     <br>
-    <input type="email" name="_replyto" placeholder="Your email here">
+    <input type="email" name="email" placeholder="Your email here">
     <br>
     <br>
     <textarea rows="10" cols="100" name="message" placeholder="Your message here"> </textarea>
