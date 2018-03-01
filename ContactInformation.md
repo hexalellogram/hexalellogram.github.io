@@ -22,7 +22,7 @@ layout: default
     <input type="email" name="email" placeholder="Your email here">
     <br>
     <br>
-    <textarea rows="10" cols="100" name="message" placeholder="Your message here"> </textarea>
+    <textarea name="message" placeholder="Your message here"></textarea>
     <br>
     <br>
     <input type="submit" value="Send">
