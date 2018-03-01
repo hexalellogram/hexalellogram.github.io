@@ -18,6 +18,7 @@ layout: default
       method="POST">
     <input type="text" name="name" placeholder="Your name here">
     <br>
+    <br>
     <input type="email" name="_replyto" placeholder="Your email here">
     <br>
     <br>
