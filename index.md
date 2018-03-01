@@ -10,9 +10,9 @@ Under construction at the moment, come back later!
 ---
 
 ## My Projects
-- [mac-setup](https://github.com/hexalellogram/mac-setup) - Setup script for macOS
+- [mac-setup](https://github.com/hexalellogram/mac-setup) - Setup script for macOS, to set up a Mac with my preferred tools
 - [hexalellogram.github.io](https://github.com/hexalellogram/hexalellogram.github.io) - This website
-- [ROM Documentation](https://github.com/hexalellogram/ROMDocumentation) - My log of steps taken on my Nexus 5 and OnePLus 3 with MultiROM
+- [ROM Documentation](https://github.com/hexalellogram/ROMDocumentation) - My log of steps taken on my Nexus 5 and OnePlus 3 with MultiROM
 
 ---
 
@@ -24,4 +24,4 @@ make modifications, and submit a pull request.
 
 ---
 
-Much thanks to the Jekyll and GitHub Pages documentation
+Much thanks to the Jekyll and GitHub Pages documentation!
