@@ -14,6 +14,8 @@ layout: default
 
 ### Contact Form
 
+Use the form below to send me an email.
+
 <form action="https://formspree.io/btsuyuki1@gmail.com"
       method="POST">
     <input type="text" name="name" placeholder="Your name here">
