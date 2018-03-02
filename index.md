@@ -5,6 +5,7 @@
 layout: default
 ---
 
+Welcome to **HexWeb**, the website of Bryce Tsuyuki (a.k.a Hexalellogram)!
 Under construction at the moment, come back later!
 
 ## My Projects
