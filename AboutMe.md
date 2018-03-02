@@ -7,15 +7,13 @@ layout: default
 
 ## About Me
 
-### Bryce Tsuyuki
-
-#### Valencia High School
+### **Valencia High School**
 - 11th Grade
 - International Baccalaureate Program
 - Val Tech Program
 
 
-#### Boy Scouts
+### **Boy Scouts**
 - Eagle Scout
 - Numerous Leadership Positions Held:
   - Senior Patrol Leader
@@ -25,7 +23,7 @@ layout: default
   - Patrol Leader
 
 
-#### CyberPatriot Cybersecurity Competition
+### **CyberPatriot Cybersecurity Competition**
 - CyberPatriot VIII: Regional Finalist, Western Region, Gold Tier
 - CyberPatriot IX: Regional Finalist, Western Region, Platinum Tier
 - CyberPatriot X: National Semifinalist, Platinum Tier
