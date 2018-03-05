@@ -20,7 +20,5 @@ important details, please
 better) fork [the GitHub repository for this website](https://github.com/hexalellogram/hexalellogram.github.io),
 make modifications, and submit a pull request.
 
-Last update: 3/1/18
-
 ## Attribution
 Much thanks to the Jekyll and GitHub Pages documentation!
