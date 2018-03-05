@@ -8,3 +8,5 @@ layout: default
 ## Thank you for your form submission!
 
 I will get back to you shortly.
+
+[Return to the homepage!](https://hexalellogram.github.io/)
