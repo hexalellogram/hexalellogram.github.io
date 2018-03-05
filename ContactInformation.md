@@ -27,7 +27,7 @@ Use the form below to send me an email.
     <textarea name="message" rows="10" cols="100" placeholder="Your message here"></textarea>
     <br>
     <br>
-    <input type="hidden" name="_next" value="https://hexalellogram.github.io/thanks.html" />
+    <input type="hidden" name="_next" value="https://hexalellogram.github.io/Thanks.html" />
     <input type="submit" value="Send">
     
 </form>
