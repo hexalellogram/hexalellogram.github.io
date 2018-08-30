@@ -8,7 +8,7 @@ layout: default
 ## About Me
 
 ### **Valencia High School**
-- 11th Grade
+- 12th Grade
 - International Baccalaureate Program
 - Val Tech Program
 
