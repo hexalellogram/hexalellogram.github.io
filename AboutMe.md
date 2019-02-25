@@ -28,3 +28,10 @@ layout: default
 - CyberPatriot IX: Regional Finalist, Western Region, Platinum Tier
 - CyberPatriot X: National Semifinalist, Platinum Tier
 - CyberPateiot XI: National Semifinalist, Platinum Tier
+
+### Caputure the Flag Competition History
+- [HSCTF](https://hsctf.com/) - Spring 2017, Spring 2018
+- [Mitre STEM CTF: Cyber Challenge](https://mitrestemctf.org/) - Spring 2019
+- [National Cyber League[](https://www.nationalcyberleague.org/) - Spring 2018
+- [PACTF](https://2018.pactf.com) - Spring 2018
+- [PicoCTF](https://picoctf.com/) - Spring 2017, Fall 2018
