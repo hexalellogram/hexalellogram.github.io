@@ -27,3 +27,4 @@ layout: default
 - CyberPatriot VIII: Regional Finalist, Western Region, Gold Tier
 - CyberPatriot IX: Regional Finalist, Western Region, Platinum Tier
 - CyberPatriot X: National Semifinalist, Platinum Tier
+- CyberPateiot XI: National Semifinalist, Platinum Tier
