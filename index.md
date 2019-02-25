@@ -12,6 +12,7 @@ Under construction at the moment, come back later!
 - [mac-setup](https://github.com/hexalellogram/mac-setup) - Setup script for macOS, to set up a Mac with my preferred tools
 - [hexalellogram.github.io](https://github.com/hexalellogram/hexalellogram.github.io) - This website
 - [ROM Documentation](https://github.com/hexalellogram/ROMDocumentation) - My log of steps taken on my Nexus 5 and OnePlus 3 with MultiROM
+- [iPhoneBatteryClient](https://github.com/hexalellogram/iPhoneBatteryClient) - An Apple Watch app to synchronize battery status information between a paired iPhone and an Apple Watch. Very barebones and possibly non-functional.
 
 ## Contributing
 If anything here is confusing (or _wrong_!), or if I've missed
