@@ -16,6 +16,10 @@ I’m continually updating this and adding new content!
 - [ROM Documentation](https://github.com/hexalellogram/ROMDocumentation) - My log of steps taken on my Nexus 5 and OnePlus 3 with MultiROM
 - [iPhoneBatteryClient](https://github.com/hexalellogram/iPhoneBatteryClient) - An Apple Watch app to synchronize battery status information between a paired iPhone and an Apple Watch. Very barebones and possibly non-functional.
 
+## Projects I Contribute To
+- [BigBlueBox](https://github.com/rbaker26/BigBlueBox) - An Inventory Management System for a NYLT Course or other Boy Scout Programs
+- [Homebrew Cask](https://github.com/Homebrew/homebrew-cask) - A CLI workflow for the administration of macOS applications distributed as binaries
+
 ## Contributing
 If anything here is confusing (or _wrong_!), or if I've missed
 important details, please
