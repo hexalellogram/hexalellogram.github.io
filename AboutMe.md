@@ -29,7 +29,7 @@ layout: default
 - CyberPatriot X: National Semifinalist, Platinum Tier
 - CyberPateiot XI: National Semifinalist, Platinum Tier
 
-### Caputure the Flag Competition History
+### **Capture the Flag Competition History**
 - [HSCTF](https://hsctf.com/) - Spring 2017, Spring 2018
 - [Mitre STEM CTF: Cyber Challenge](https://mitrestemctf.org/) - Spring 2019
 - [National Cyber League](https://www.nationalcyberleague.org/) - Spring 2018
