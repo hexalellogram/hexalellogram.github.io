@@ -17,8 +17,10 @@ I’m continually updating this and adding new content!
 - [iPhoneBatteryClient](https://github.com/hexalellogram/iPhoneBatteryClient) - An Apple Watch app to synchronize battery status information between a paired iPhone and an Apple Watch. Very barebones and possibly non-functional.
 
 ## Projects I Contribute To
-- [BigBlueBox](https://github.com/rbaker26/BigBlueBox) - An Inventory Management System for a NYLT Course or other Boy Scout Programs
+- [BigBlueBox](https://github.com/rbaker26/BigBlueBox) - An Inventory Management System for a NYLT Course or other Boy Scout Programs (Role: Tester)
 - [Homebrew Cask](https://github.com/Homebrew/homebrew-cask) - A CLI workflow for the administration of macOS applications distributed as binaries
+- [CyberTigerScoreboard](https://github.com/cool00geek/CyberTigerScoreboard) - A scoring graph system, inspired by the official CyberPatriot Scoring engine (Role: Tester)
+- [vhscyberpatriot](https://github.com/cool00geek/vhscyberpatriot) - The former website of Valencia High School CyberPatriot, now defunct.
 
 ## Contributing
 If anything here is confusing (or _wrong_!), or if I've missed
