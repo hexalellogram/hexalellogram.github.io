@@ -5,8 +5,10 @@
 layout: default
 ---
 
-Welcome to **HexWeb**, the website of Bryce Tsuyuki (a.k.a Hexalellogram)!
-Under construction at the moment, come back later!
+Welcome to Bryce Tsuyuki (a.k.a Hexalellogram)’s website!
+
+
+I’m continually updating this and adding new content!
 
 ## My Projects
 - [mac-setup](https://github.com/hexalellogram/mac-setup) - Setup script for macOS, to set up a Mac with my preferred tools
