@@ -32,6 +32,6 @@ layout: default
 ### **Capture the Flag Competition History**
 - [HSCTF](https://hsctf.com/) - Spring 2017, Spring 2018
 - [Mitre STEM CTF: Cyber Challenge](https://mitrestemctf.org/) - Spring 2019
-- [National Cyber League](https://www.nationalcyberleague.org/) - Spring 2018
+- [National Cyber League](https://www.nationalcyberleague.org/) - Spring 2018, Spring 2019
 - [PACTF](https://2018.pactf.com) - Spring 2018
 - [PicoCTF](https://picoctf.com/) - Spring 2017, Fall 2018
