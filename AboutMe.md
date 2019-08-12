@@ -24,7 +24,7 @@ layout: default
   - OWASP Juice Shop
 - Taught at 3 community colleges: Merritt College in Oakland, Evergreen Valley College in San Jose, and Foothill College Sunnyvale Center in Sunnyvale
 
-## Educational Experience
+## Education
 
 ### **University of California, San Diego**
 - Computer Science Major, Warren College
