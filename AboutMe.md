@@ -5,13 +5,39 @@
 layout: default
 ---
 
-## About Me
+# About Me
+
+## Work Experience
+
+### Summer CyberCamp Instructor for Bay Area Cyber Competitions
+- Taught introductory and advanced summer camps for middle and high schoolers
+- Introductory cybersecurity summer camps subject topics:
+  - Digital footprint
+  - Windows workstation security
+  - Linux
+  - Digital forensics with Autopsy
+  - Packet Tracer
+  - Wireshark
+- Advanced cybersecurity summer camp topics:
+  - Introduction to open source intelligence
+  - Introduction to cryptography
+  - OWASP Juice Shop
+- Taught at 3 community colleges: Merritt College in Oakland, Evergreen Valley College in San Jose, and Foothill College Sunnyvale Center in Sunnyvale
+
+## Educational Experience
+
+### **University of California, San Diego**
+- Computer Science Major, Warren College
+- Class of 2023
+
 
 ### **Valencia High School**
-- 12th Grade
-- International Baccalaureate Program
-- Val Tech Program
+- Graduate
+- International Baccalaureate Diploma Recipient
+- Val Tech Diploma Recipient
 
+
+## **Extracurricular Experience**
 
 ### **Boy Scouts**
 - Eagle Scout
