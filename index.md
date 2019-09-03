@@ -15,8 +15,9 @@ I’m continually updating this and adding new content!
 - [hexalellogram.github.io](https://github.com/hexalellogram/hexalellogram.github.io) - This website
 - [ROM Documentation](https://github.com/hexalellogram/ROMDocumentation) - My log of steps taken on my Nexus 5 and OnePlus 3 with MultiROM
 - [iPhoneBatteryClient](https://github.com/hexalellogram/iPhoneBatteryClient) - An Apple Watch app to synchronize battery status information between a paired iPhone and an Apple Watch.
-- [secure-windows-scripts](https://github.com/hexalellogram/secure-windows-scripts) - A set of Windows scripts to secure a Windows system, but not necessarily following best practices. DO NOT USE IN A PRODUCTION ENVIRONMENT.
-- [sonyConnect](https://github.com/hexalellogram/sonyConnect) - Script to connect my Sony WH-900N headphones to my Linux desktop via Bluetooth 
+- [secure-windows-scripts](https://github.com/hexalellogram/secure-windows-scripts) - A set of Windows scripts to secure a Windows system, but not necessarily following best practices. **DO NOT USE IN A PRODUCTION ENVIRONMENT.**
+- [sonyConnect](https://github.com/hexalellogram/sonyConnect) - Script to connect my Sony WH-900N headphones to my Linux desktop via Bluetooth.
+-  [CATS-OSS](https://github.com/hexalellogram/CATS-OSS) - Cyber Activity Tracking System, a system to track issues for cyber competitions submitted through Google Forms.
 
 ## Projects I Contribute To
 - [BigBlueBox](https://github.com/rbaker26/BigBlueBox) - An Inventory Management System for a NYLT Course or other Boy Scout Programs (Role: Tester)
