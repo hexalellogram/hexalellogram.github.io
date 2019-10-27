@@ -112,6 +112,7 @@
     margin-top: 30px;
     margin-left: 30px;
     border-radius: 5%;
+    min-width: 75%;
     max-width: 75%;
     max-height: 250px; 
     overflow: hidden;
@@ -230,6 +231,11 @@
 
 #contribute4 {
     grid-column: 1;
+    grid-row: 9;
+}
+
+#contribute5 {
+    grid-column: 2;
     grid-row: 9;
 }
 
