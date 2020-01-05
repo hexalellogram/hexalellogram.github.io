@@ -59,6 +59,10 @@
     color: #D44638;
 }
 
+.fa-address-card:hover {
+    color: #3366CC;
+}
+
 .fa-github-square:hover {
     color: black;
 }
