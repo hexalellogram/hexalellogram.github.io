@@ -55,12 +55,12 @@
     color: gray
 }
 
-.fa-envelope-square:hover {
-    color: #D44638;
+.fa-id-card:hover {
+    color: #3366CC;
 }
 
-.fa-address-card:hover {
-    color: #3366CC;
+.fa-envelope-square:hover {
+    color: #D44638;
 }
 
 .fa-github-square:hover {
