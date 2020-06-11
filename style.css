@@ -5,3 +5,7 @@
 .project-card {
     background-color:hsl(0, 0%, 90%);
 }
+
+.project-image {
+    max-height: 50%;
+}
