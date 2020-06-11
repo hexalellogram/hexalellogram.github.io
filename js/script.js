@@ -23,3 +23,13 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   
   });
+
+function toggleModal(el) {
+  modal = document.getElementById(el);
+  modal.classList.toggle("is-active");
+}
+
+// function hideModal(el) {
+//   modal = document.getElementById(el);
+//   modal.className = "modal is-active";
+// }

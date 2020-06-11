@@ -5,7 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Bryce Tsuyuki</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">        <script type="text/javascript" src="js/script.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">        
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script type="text/javascript" src="js/script.js"></script>
         <!-- TODO add favicon -->
     </head>
 
@@ -143,73 +145,104 @@
             <h1 class="title">
                 My Projects
             </h1>
+            <h2 class="subtitle">
+                Click any of the projects for more details.
+            </h2>
+
+            <div class="columns">
+                <div class="column">
+                    <div class="box project-box" id="mac-setup-box" onclick="toggleModal('mac-setup-modal');">
+                        <figure class="image">
+                            <img src="imgs/project1.png">
+                        </figure>
+                        <h1 class="title has-text-centered">
+                            Mac Setup Scripts
+                        </h1>
+                        <h2 class="subtitle has-text-centered">
+                            A Bash script for macOS, to quickly set up a Mac with my preferred tools, settings, and applications.
+                        </h2>
+                    </div>
+                    <div class="modal" id="mac-setup-modal" >
+                        <div class="modal-background" onclick="toggleModal('mac-setup-modal');"></div>
+                        <div class="modal-content">
+                            <div class="card">
+                                <header class="card-header">
+                                    <p class="card-header-title">
+                                        Mac Setup Scripts
+                                    </p>
+                                </header>
+                                <div class="card-image">
+                                    <figure class="image">
+                                        <img src="imgs/project1.png">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <p class="has-text-black">
+                                        A Bash script for macOS, to quickly set up a Mac with my preferred tools, settings, and applications.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="modal-close is-large" aria-label="close" onclick="toggleModal('mac-setup-modal');"></button>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="box">
+                        <figure class="image">
+                            <img src="imgs/project1.png">
+                        </figure>
+                        <h1 class="title has-text-black has-text-centered">
+                            Mac Setup Scripts
+                        </h1>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="box">
+                        <figure class="image">
+                            <img src="imgs/project1.png">
+                        </figure>
+                        <h1 class="title has-text-black has-text-centered">
+                            Mac Setup Scripts
+                        </h1>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="columns">
+                <div class="column">
+                    <div class="box">
+                        <figure class="image">
+                            <img src="imgs/project1.png">
+                        </figure>
+                        <h1 class="title has-text-black has-text-centered">
+                            Mac Setup Scripts
+                        </h1>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="box">
+                        <figure class="image">
+                            <img src="imgs/project1.png">
+                        </figure>
+                        <h1 class="title has-text-black has-text-centered">
+                            Mac Setup Scripts
+                        </h1>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="box">
+                        <figure class="image">
+                            <img src="imgs/project1.png">
+                        </figure>
+                        <h1 class="title has-text-black has-text-centered">
+                            Mac Setup Scripts
+                        </h1>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="columns mx-2">
-            <div class="column">
-                <div class="box">
-                    <figure class="image">
-                        <img src="imgs/project1.png">
-                    </figure>
-                    <h1 class="title has-text-black has-text-centered">
-                        Mac Setup Scripts
-                    </h1>
-                </div>
-            </div>
-            <div class="column">
-                <div class="box">
-                    <figure class="image">
-                        <img src="imgs/project1.png">
-                    </figure>
-                    <h1 class="title has-text-black has-text-centered">
-                        Mac Setup Scripts
-                    </h1>
-                </div>
-            </div>
-            <div class="column">
-                <div class="box">
-                    <figure class="image">
-                        <img src="imgs/project1.png">
-                    </figure>
-                    <h1 class="title has-text-black has-text-centered">
-                        Mac Setup Scripts
-                    </h1>
-                </div>
-            </div>
-        </div>
-
-        <div class="columns mx-2">
-            <div class="column">
-                <div class="box">
-                    <figure class="image">
-                        <img src="imgs/project1.png">
-                    </figure>
-                    <h1 class="title has-text-black has-text-centered">
-                        Mac Setup Scripts
-                    </h1>
-                </div>
-            </div>
-            <div class="column">
-                <div class="box">
-                    <figure class="image">
-                        <img src="imgs/project1.png">
-                    </figure>
-                    <h1 class="title has-text-black has-text-centered">
-                        Mac Setup Scripts
-                    </h1>
-                </div>
-            </div>
-            <div class="column">
-                <div class="box">
-                    <figure class="image">
-                        <img src="imgs/project1.png">
-                    </figure>
-                    <h1 class="title has-text-black has-text-centered">
-                        Mac Setup Scripts
-                    </h1>
-                </div>
-            </div>
-        </div>
+        
     </section>
     
 </html>
