@@ -1,3 +1,7 @@
 .project-box {
     background-color:hsl(0, 0%, 55%);
 }
+
+.project-card {
+    background-color:hsl(0, 0%, 90%);
+}
