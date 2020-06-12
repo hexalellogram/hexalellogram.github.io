@@ -3,19 +3,7 @@
     max-height: inherit;
 }
 
-.project-card {
-    background-color:hsl(0, 0%, 90%);
-}
-
 .project-image {
     max-height: 25vh;
     width: auto !important;
 }
-
-/* .project-columns {
-    max-height: 700px;
-}
-
-.project-column {
-    max-height: inherit;
-} */
