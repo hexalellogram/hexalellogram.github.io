@@ -1,6 +1,6 @@
 .project-box {
     background-color:hsl(0, 0%, 55%);
-    max-height: inherit;
+    max-height: 100%;
 }
 
 .project-image {
