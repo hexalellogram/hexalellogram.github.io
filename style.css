@@ -1,5 +1,6 @@
 .project-box {
     background-color:hsl(0, 0%, 55%);
+    max-height: inherit;
 }
 
 .project-card {
@@ -7,5 +8,14 @@
 }
 
 .project-image {
-    max-height: 50%;
+    max-height: 25vh;
+    width: auto !important;
 }
+
+/* .project-columns {
+    max-height: 700px;
+}
+
+.project-column {
+    max-height: inherit;
+} */
