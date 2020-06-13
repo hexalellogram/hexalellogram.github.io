@@ -13,3 +13,7 @@
     max-height: 30vh;
     width: auto !important;
 }
+
+.project-card {	
+    background-color:hsl(0, 0%, 90%);	
+}

@@ -399,7 +399,7 @@
             <div class="tile is-ancestor">
 
                 <div class="tile is-parent">
-                    <div class="level box project-box">
+                    <div class="level box project-box" onclick="toggleModal('ucsd-modal');">
                         <div class="tile is-child has-text-centered">
                             <figure class="image project-image is-inline-block mb-3">
                                 <img src="imgs/ucsd.png" class="project-image">
@@ -410,15 +410,41 @@
                             <h2 class="subtitle has-text-centered">
                                 September 2019 - June 2023 (expected)
                             </h2>
-                            <h2 class="subtitle has-text-centered">
-                                Computer Science (B.S.), Political Science Minor
-                            </h2>
                         </div>
-                    </div>  
+                    </div>
+                </div>
+
+                <div class="modal" id="ucsd-modal">	
+                    <div class="modal-background" onclick="toggleModal('ucsd-modal');"></div>	
+                    <div class="modal-content">	
+                        <div class="card project-card mx-3">	
+                            <header class="card-header">	
+                                <p class="card-header-title">	
+                                    University of California, San Diego
+                                </p>	
+                            </header>	
+                            <div class="card-image mx-3 my-3">	
+                                <figure class="image">	
+                                    <img src="imgs/ucsd.png">	
+                                </figure>	
+                            </div>	
+                            <div class="card-content content">	
+                                <ul class="has-text-black">
+                                    <li>Class of 2023 (expected)</li>
+                                    <li>Location: San Diego, CA</li>
+                                    <li>Computer Science (B.S.), Political Science Minor</li>
+                                    <li>Earl Warren College</li>
+                                    <li>UCSD Regents Scholar - awarded to entering undergraduate students based on academic excellence</li>
+                                    <li>Provost's Honors - awarded to undergraduate students based on academic excellence in previous quarters</li>
+                                </ul>
+                            </div>	
+                        </div>	
+                    </div>	
+                    <button class="modal-close is-large" aria-label="close" onclick="toggleModal('ucsd-modal');"></button>	
                 </div>
 
                 <div class="tile is-parent">
-                    <div class="level box project-box">
+                    <div class="level box project-box" onclick="toggleModal('vhs-modal');">
                         <div class="tile is-child has-text-centered">
                             <figure class="image project-image is-inline-block mb-3">
                                 <img src="imgs/vhs.png" class="project-image">
@@ -427,13 +453,37 @@
                                 Valencia High School
                             </h1>
                             <h2 class="subtitle has-text-centered">
-                                September 2019 - June 2023
-                            </h2>
-                            <h2 class="subtitle has-text-centered">
-                                International Baccalaureate Diploma, Valencia Technology Diploma
+                                September 2015 - June 2019
                             </h2>
                         </div>
                     </div>
+                </div>
+
+                <div class="modal" id="vhs-modal">	
+                    <div class="modal-background" onclick="toggleModal('vhs-modal');"></div>	
+                    <div class="modal-content">	
+                        <div class="card project-card mx-3 my-3">	
+                            <header class="card-header">	
+                                <p class="card-header-title">	
+                                    Valencia High School
+                                </p>	
+                            </header>	
+                            <div class="card-image mx-3">	
+                                <figure class="image">	
+                                    <img src="imgs/vhs.png">	
+                                </figure>	
+                            </div>
+                            <div class="card-content content">	
+                                <ul class="has-text-black">
+                                    <li>Class of 2019</li>
+                                    <li>Location: Placentia, CA</li>
+                                    <li>International Baccalaureate Diploma</li>
+                                    <li>Valencia Technology Diploma, Computer Science Pathway</li>
+                                </ul>
+                            </div>	
+                        </div>	
+                    </div>	
+                    <button class="modal-close is-large" aria-label="close" onclick="toggleModal('vhs-modal');"></button>
                 </div>
 
             </div>
