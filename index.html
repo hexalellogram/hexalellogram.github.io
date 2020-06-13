@@ -1,412 +1,1366 @@
-<!-- TODO... this is where the bulk content of your webpage goes -->
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Bryce Tsuyuki's Website</title>
-    <link rel="stylesheet" href="main.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-    <link rel="icon" type = "image/png" href="imgs/favicon.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-  <body>
-    <div id = "container">
-      <img id= "logo" src = "imgs/logo.png" alt="logo" width=175 height=175>
-      
+<html class="has-navbar-fixed-top">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bryce Tsuyuki</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">        
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script type="text/javascript" src="js/script.js"></script>
+        <link rel="icon" type = "image/png" href="imgs/favicon.png">
+    </head>
 
-      <section id = "name">
-        <h1>Bryce Tsuyuki</h1>
-        <h2 class="color-change">Software Engineer</h2>
-        <h2 class="color-change">San Diego, CA</h2>
-      </section>
-
-      <div id="iconlist">
-        <a href="https://brycetsuyuki.com/Resume/BryceTsuyukiResume.pdf"><i class="fa fa-id-card icon fa-3x"></i></a>
-        <a href="mailto:btsuyuki1@gmail.com"><i class="fa fa-envelope-square icon fa-3x"></i></a>
-        <a href="https://github.com/hexalellogram"><i class="fa fa-github-square icon fa-3x"></i></a>
-        <a href="https://www.linkedin.com/in/bryce-tsuyuki/"><i class="fa fa-linkedin-square icon fa-3x"></i></a>
-        <a href="https://www.facebook.com/bryce.tsuyuki"><i class="fa fa-facebook-square icon fa-3x"></i></a>
-        <a href="https://twitter.com/hexalellogram"><i class="fa fa-twitter-square icon fa-3x"></i></a>
-        <a href="https://instagram.com/hexalellogram"><i class="fa fa-instagram icon fa fa-3x"></i></a>
-      </div>
-
-      <div id="projects-header" class="color-change">
-        <div class="divider color-change"></div>
-        <h2> Personal Projects </h2>
-        <div class="divider color-change"></div>
-      </div>
-
-      <div id="project1" data-tooltip="Setup script for macOS, to set up a Mac with my preferred tools.">
-        <div class="pic-container">
-          <a href = "https://github.com/hexalellogram/mac-setup" target="_blank_">
-            <img id="project1pic" class = "project-image" src = "imgs/project1.png" alt="Mac Setup Scripts">
-            <div class = "title-shadowbox">
-              <p id = "project1title" class = "project-title">Mac Setup Scripts</p>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <div id="project2" data-tooltip="A system to track issues for cyber competitions submitted through Google Forms.">
-        <div class="pic-container">
-          <a href = "https://github.com/hexalellogram/CATS-OSS" target="_blank_">
-            <img id="project2pic" class = "project-image" src = "imgs/project2.png" alt="Cyber Activity Tracking System-OSS">
-            <div class = "title-shadowbox">
-              <p id = "project2title" class = "project-title">Cyber Activity Tracking System-OSS</p>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <div id="project3" data-tooltip="An Apple Watch app to synchronize battery status information between a paired iPhone and an Apple Watch.">
-        <div class="pic-container">          
-          <a href = "https://github.com/hexalellogram/iPhoneBatteryClient" target="_blank_">    
-            <img id="project3pic" class = "project-image" src = "imgs/project3.png" alt="iPhoneBatteryClient App">        
-            <div class = "title-shadowbox">
-              <p id = "project3title" class = "project-title">iPhoneBatteryClient App</p>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <div id="project4" data-tooltip="Script to connect my Sony WH-900N headphones to my Linux desktop via Bluetooth.">
-        <div class="pic-container">
-          <a href = "https://github.com/hexalellogram/sonyConnect" target="_blank_">
-            <img id="project4pic" class = "project-image" src = "imgs/project4.png" alt="Connect Sony Headphones Script">
-            <div class = "title-shadowbox">
-              <p id = "project4title" class = "project-title">Connect Sony Headphones Script</p>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <div id="project5" data-tooltip="My log of actions taken on my Nexus 5 with MultiROM and OnePlus 3 to install multiple mobile OSes.">
-        <div class="pic-container">
-          <a href = "https://github.com/hexalellogram/ROMDocumentation" target="_blank_">
-            <img id="project5pic" class = "project-image" src = "imgs/project5.png" alt="ROM Documentation">
-            <div class = "title-shadowbox">
-              <p id = "project5title" class = "project-title">ROM Documentation</p>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <div id="project6" data-tooltip="My personal website (this website).">
-        <div class="pic-container">
-          <a href = "https://github.com/hexalellogram/hexalellogram.github.io" target="_blank_">
-            <img id="project6pic" class = "project-image" src = "imgs/project6.png" alt="brycetsuyuki.com">
-            <div class = "title-shadowbox">
-              <p id = "project6title" class = "project-title">brycetsuyuki.com</p>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <div id="project7" data-tooltip="A set of Windows scripts to secure a Windows system, but not necessarily following best practices. DO NOT USE IN A PRODUCTION ENVIRONMENT.">
-        <div class="pic-container">
-          <a href = "https://github.com/hexalellogram/secure-windows-scripts" target="_blank_">
-            <img id="project7pic" class = "project-image" src = "imgs/project7.png" alt="Windows Workstation Security Scripts">
-            <div class = "title-shadowbox">
-              <p id = "project7title" class = "project-title">Windows Workstation Security Scripts</p>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <div id="projects-contribute-header" class="color-change">
-        <div class="divider color-change"></div>
-        <h2> Projects I've Contributed To </h2>
-        <div class="divider color-change"></div>
-      </div>
-
-      <div id="contribute1" data-tooltip="An Inventory Management System for a NYLT Course or other Boy Scout Program. (Role: Tester and Dev)">
-        <div class="pic-container">
-          <a href = "https://github.com/rbaker26/BigBlueBox" target="_blank_">
-            <img id="contribute1pic" class = "project-image" src = "imgs/contribute1.png" alt="BigBlueBox">
-            <div class = "title-shadowbox">
-              <p id = "contribute1title" class = "project-title">BigBlueBox</p>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <div id="contribute2" data-tooltip="A CLI workflow for the administration of macOS applications distributed as binaries. (Role: Cask Formula updater)">
-        <div class="pic-container">
-          <a href = "https://github.com/Homebrew/homebrew-cask" target="_blank_">
-            <img id="contribute2pic" class = "project-image" src = "imgs/contribute2.png" alt="Homebrew Cask">
-            <div class = "title-shadowbox">
-              <p id = "contribute2title" class = "project-title">Homebrew Cask</p>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <div id="contribute3" data-tooltip="A scoring graph system, inspired by the official CyberPatriot Scoring engine. (Role: Tester)">
-        <div class="pic-container">
-          <a href = "https://github.com/cool00geek/CyberTigerScoreboard" target="_blank_">
-            <img id="contribute3pic" class = "project-image" src = "imgs/contribute3.png" alt="CyberTigerScoreboard">
-            <div class = "title-shadowbox">
-              <p id = "contribute3title" class = "project-title">CyberTigerScoreboard</p>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <div id="contribute4" data-tooltip="The former website of Valencia High School CyberPatriot, now defunct.">
-          <div class="pic-container">
-            <a href = "https://github.com/cool00geek/vhscyberpatriot" target="_blank_">
-              <img id="contribute4pic" class = "project-image" src = "imgs/contribute4.png" alt="vhscyberpatriot.tech">
-              <div class = "title-shadowbox">
-                <p id = "contribute4title" class = "project-title">vhscyberpatriot.tech</p>
-              </div>
+    <nav class="navbar is-fixed-top is-black" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a href="#" class="navbar-item">
+                <h1>Bryce Tsuyuki</h1>
             </a>
-          </div>
-        </div>
-
-        <div id="contribute5" data-tooltip="An Android app designed to help you better keep track of events using Machine Learning. Created for SDHacks 2019.">
-          <div class="pic-container">
-            <a href = "https://github.com/hexalellogram/FlyerScanner" target="_blank_">
-              <img id="contribute5pic" class = "project-image" src = "imgs/contribute5.png" alt="FlyerScanner">
-              <div class = "title-shadowbox">
-                <p id = "contribute5title" class = "project-title">FlyerScanner</p>
-              </div>
+            <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
             </a>
-          </div>
         </div>
 
-      <div id="education-header" class="color-change resume-header">
-        <div class="divider color-change"></div>
-        <h2> Education </h2>
-        <div class="divider color-change"></div>
-      </div>    
+        <div class="navbar-menu" id="navMenu">
+            <div class="navbar-start">
+                <a href="#about-me" class="navbar-item">
+                    <h1>About/Contact</h1>
+                </a>
+                <a href="#projects" class="navbar-item">
+                    <h1>Projects</h1>
+                </a>
+                <a href="#contributions" class="navbar-item">
+                    <h1>Contributions</h1>
+                </a>
+                <div href="#resume" class="navbar-item has-dropdown is-hoverable" id="onlineResumeDropdown">
+                    <a class="navbar-link" data-target="onlineResumeDropdown">
+                        Online Resume
+                    </a>
 
-      <div id="education" class="resume-section">
-        <span class = "title color-change">University of California, San Diego</span><br class="bigbr">
-        <span class = "dates"> September 2019 - June 2023</span><br class = "smallbr">
-        <span class = "resume">BS in Computer Science, Minor in Political Science</span><br class = "bigbr">
-        <span class = "location">La Jolla, California</span><br>
-        <ul class = "bullets">
-            <li><span>Earl Warren College, Class of 2023</span></li>
-            <li><span>UCSD Regents Scholar - awarded to entering undergraduate students based on academic excellence</span></li>
-            <li><span>Provost's Honors - awarded to undergraduate students based on academic excellence in previous quarters</span></li>
-        </ul>
+                    <div class="navbar-dropdown">
+                        <a href="#education" class="navbar-item">
+                            <h1>Education</h1>
+                        </a>
+                        <a href="#work-experience" class="navbar-item">
+                            <h1>Work Experience</h1>
+                        </a>
+                        <a href="#volunteer-experience" class="navbar-item">
+                            <h1>Volunteer Experience/Other Activities</h1>
+                        </a>
+                        <a href="#awards" class="navbar-item">
+                            <h1>Awards</h1>
+                        </a>
+                    </div>
+                </div>
+                <a href="#fun" class="navbar-item">
+                    <h1>Fun Stuff</h1>
+                </a>
+            </div>
 
-        <span class = "title color-change">Valencia High School</span><br class = "bigbr">
-        <span class = "dates"> September 2015 - June 2019</span><br class = "smallbr">
-        <span class = "resume">Class of 2019</span><br class="bigbr">
-        <span class = "location">Placentia, California</span><br>
-        <ul class = "bullets">
-            <li><span>International Baccalaureate Diploma</span></li>
-            <li><span>Val Tech Diploma Recipient - Computer Science Pathway</span></li>
-        </ul>
-      </div>
+            <div class="navbar-end">
+                <div class="buttons is-centered">
+                    <a href="Resume/BryceTsuyukiResume.pdf">
+                        <button class="button is-link is-rounded">
+                            <span class="icon">
+                                <i class="fa fa-download" aria-hidden="true"></i>
+                            </span>
+                            <span>Download Resume</span>
+                        </button>
+                    </a>
+                </div>
+            </div>
 
-      <div id="work-header" class="color-change resume-header">
-        <div class="divider color-change"></div>
-        <h2> Work Experience </h2>
-        <div class="divider color-change"></div>
-      </div> 
+        </div>
+    </nav>
 
-      <div id="work" class="resume-section">
-        <span class = "title color-change">IntElect</span><br class = "bigbr">
-        <span class = "dates">April 2020 - Present</span><br class = "smallbr">
-        <span class = "resume">Market Research Intern</span><br class="bigbr">
-        <span class = "location">Greater San Diego Area, California</span><br>
-        <ul class = "bullets">
-          <li><span>Responsible for market research for our product, including gathering demographic and academic statistics on University of California campuses</span></li>
-          <li><span>Created and distributed surveys to UC San Diego students that would indicate the viability of our product</span></li>
-        </ul>
-        <span class = "title color-change">Bay Area Cyber Competitions</span><br class = "bigbr">
-        <span class = "dates">May 2019 - August 2019</span><br class = "smallbr">
-        <span class = "resume">Instructor</span><br class="bigbr">
-        <span class = "location">San Francisco Bay Area, California</span><br>
-        <ul class = "bullets">
-          <li><span>Taught introductory and advanced cybersecurity skills summer camps for 30 middle and high school students per week</span></li>
-          <li><span>Introductory cybersecurity summer camps subject topics:</span></li>
-            <ul>
-              <li><span>Digital footprint</span></li>
-              <li><span>Windows workstation security</span></li>
-              <li><span>Basic Linux command line skills</span></li>
-              <li><span>Digital forensics with Autopsy</span></li>
-              <li><span>Packet Tracer</span></li>
-              <li><span>Wireshark</span></li>
-            </ul>
-            <li><span>Advanced cybersecurity summer camps subject topics:</span></li>
-            <ul>
-              <li><span>Introduction to open source intelligence</span></li>
-              <li><span>Introduction to cryptography</span></li>
-              <li><span>OWASP Juice Shop</span></li>
-              <li><span>Basic Splunk</span></li>
-            </ul>
-            <li><span>Taught at 3 community colleges: Merritt College in Oakland, Evergreen Valley College in San Jose, and Foothill College Sunnyvale Center in Sunnyvale</span></li>
-            <li><span>Developed, tested, and deployed various online competitions involving 400+ students per week, reinforcing their cybersecurity skills</span></li>
-        </ul>
-        <span class = "title color-change">California State University, Fullerton</span><br class = "bigbr">
-        <span class = "dates">June 2018 - August 2018</span><br class = "smallbr">
-        <span class = "resume">Intern</span><br class="bigbr">
-        <span class = "location">Fullerton, California</span><br>
-        <ul class = "bullets">
-          <li><span>Researched applications of cybersecurity in healthcare under Professor Shawn Wang to provide insight into youth views on healthcare data security</span></li>
-          <li><span>Authored a collaborative report about the findings of this research which aided Professor Wang's research</span></li>
-          <li><span>Compiled suggestions on compliance with government data security regulations and best practices for data security</span></li>
-        </ul>
+    <section class="hero is-link" id="about-me">
+        <div class="hero-body">
+            <div class="columns is-vcentered my-3">
+                <div class="column">
+                    <figure class="image">
+                        <img class="is-rounded" src="imgs/about-portrait.jpg">
+                    </figure>
+                </div>
 
-      </div>
+                <div class="column is-two-thirds">
+                    <h1 class="title">
+                        About Me
+                    </h1>
+                    <h2 class="subtitle">
+                        I'm Bryce, a Computer Science (B.S.) student at UC San Diego, and an aspiring DevOps and Software Engineer.
+                    </h2>
+                    <h2 class="subtitle">
+                        I'm also a former instructor for Bay Area Cyber Competitions, a two-time AFA CyberPatriot National Semifinalist, and an Eagle Scout.
+                    </h2>
+                    <h2 class="subtitle">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        Brea, CA and San Diego, CA
+                    </h2>
+                    <h1 class="title pt-4">
+                        Contact Me
+                    </h1>
+                    <h2 class="subtitle">
+                        On most services, you can find me as hexalellogram. The most popular social networks and methods of reaching out to me are listed below.
+                    </h2>
+                    <h2 class="subtitle">
+                        <a href="mailto:btsuyuki1@gmail.com">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            Email
+                        </a>
+                    </h2>
+                    <h2 class="subtitle">
+                        <a href="https://github.com/hexalellogram">
+                            <i class="fa fa-github" aria-hidden="true"></i>
+                            GitHub (hexalellogram)
+                        </a>
+                    </h2>
+                    <h2 class="subtitle">
+                        <a href="https://www.facebook.com/bryce.tsuyuki">
+                            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                            Facebook
+                        </a>
+                    </h2>
+                    <h2 class="subtitle">
+                        <a href="https://twitter.com/hexalellogram">
+                            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                            Twitter
+                        </a>
+                    </h2>
+                    <h2 class="subtitle">
+                        <a href="https://www.instagram.com/hexalellogram/">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            Instagram
+                        </a>
+                    </h2>
+                    <h2 class="subtitle">
+                        <a href="https://devpost.com/btsuyuki1">
+                            <i class="fa fa-code" aria-hidden="true"></i>
+                            Devpost
+                        </a>
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </section>
 
-      <div id="volunteer-header" class="color-change resume-header">
-          <div class="divider color-change"></div>
-          <h2> Volunteer Experience </h2>
-          <div class="divider color-change"></div>
-        </div> 
-  
-        <div id="volunteer" class="resume-section">
-          <span class = "title color-change">Association for Computing Machinery at UC San Diego</span><br class = "bigbr">
-          <span class = "dates"> November 2019 - Present</span><br class = "smallbr">
-          <span class = "resume">Staff Director</span><br class="bigbr">
-          <span class = "location">San Diego, California</span><br>
-          <ul class = "bullets">
-            <li><span>Connected 60+ volunteer staff members with instructional workshops and opportunities on a monthly basis</span></li>
-            <li><span>Coordinated volunteer staff in providing logistical and instructional support to 850+ members of the ACM@UCSD community</span></li>
-          </ul>
+    <section class="hero is-dark" id="projects">
+        <div class="hero-body">
+            <h1 class="title">
+                My Projects
+            </h1>
+            <h2 class="subtitle">
+                Click any of the projects to go to its repository or website.
+            </h2>
 
-          <span class = "title color-change">CyberPatriot Program at Coastline Community College</span><br class = "bigbr">
-          <span class = "dates"> September 2016 - Present</span><br class = "smallbr">
-          <span class = "resume">Mentor</span><br class="bigbr">
-          <span class = "location">Garden Grove, California</span><br>
-          <ul class = "bullets">
-            <li><span>Taught middle and high school students cybersecurity skills at Coastline Community College</span></li>
-            <li><span>Students ranked nationally in the CyberPatriot cybersecurity competition, reaching ranks of up to National Semifinalist</span></li>
-            <li><span>Skills taught included:</span></li>
-              <ul>
-                <li><span>Securing Microsoft Windows workstations</span></li>
-                <li><span>Securing Microsoft Windows servers</span></li>
-                <li><span>Securing Ubuntu Linux workstations</span></li>
-                <li><span>Securing Ubuntu Linux servers</span></li>
-              </ul>
-          </ul>
 
-          <span class = "title color-change">Boy Scouts of America, Orange County Council</span><br class = "bigbr">
-          <span class = "dates"> December 2015 - June 2018</span><br class = "smallbr">
-          <span class = "resume">GPS Geocache Lead Instructor</span><br class="bigbr">
-          <span class = "location">Santa Ana, California</span><br>
-          <ul class = "bullets">
-            <li><span>Oversaw and operated the Geocache activity for OCBSA's National Youth Leadership Training (NYLT) program</span></li>
-            <li><span>Involved 150 youth participants each year in 16 or more teams of Scouts</span></li>
-            <li><span>Reinforced participants' skills of teamwork and leadership</span></li>
-            <li><span>Responsibilities included:</span></li>
-            <ul>
-                <li><span>Creating all materials for the course</span></li>
-                <li><span>Evaluating the suitability of camp locations for inclusion in the course</span></li>
-                <li><span>Supervising ~50 staff members in running the course</span></li>
-                <li><span>Managing GPS equipment</span></li>
-            </ul>
-          </ul>
+            <div class="tile is-ancestor">
 
-          <span class = "title color-change">Boy Scouts of America, Orange County Council</span><br class = "bigbr">
-          <span class = "dates"> December 2017 - June 2018</span><br class = "smallbr">
-          <span class = "resume">Quartermaster Lieutenant</span><br class="bigbr">
-          <span class = "location">Santa Ana, California</span><br>
-          <ul class = "bullets">
-            <li><span>Led a team of 5 youth staff volunteers in camp management and logistics tasks during the duration of the NYLT course</span></li>
-            <li><span>Tasks included, but were not limited to:</span></li>
-            <ul>
-                <li><span>Equipment maintenance</span></li>
-                <li><span>Operating a central equipment depot</span></li>
-                <li><span>Meal preparation</span></li>
-                <li><span>Camp sanitation</span></li>
-                <li><span>Camp activity setup</span></li>
-            </ul>
-          </ul>
+                <div class="tile is-parent">
+                    <div class="level box project-box">
+                        <div class="tile is-child has-text-centered">
+                            <a href="https://github.com/hexalellogram/mac-setup">
+                                <figure class="image project-image is-inline-block mb-3">
+                                    <img src="imgs/project1.png" class="project-image">
+                                </figure>
+                                <h1 class="title has-text-centered">
+                                    Mac Setup Scripts
+                                </h1>
+                                <h2 class="subtitle has-text-centered">
+                                    A Bash script for macOS, to quickly set up a Mac with my preferred tools, settings, and applications.
+                                </h2>
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-          <span class = "title color-change">Boy Scouts of America, Orange County Council</span><br class = "bigbr">
-          <span class = "dates"> December 2015 - June 2017</span><br class = "smallbr">
-          <span class = "resume">Quartermaster</span><br class="bigbr">
-          <span class = "location">Santa Ana, California</span><br>
-          <ul class = "bullets">
-            <li><span>Assisted in camp maintenance and logistics tasks</span></li>
-            <li><span>Tasks included, but were not limited to:</span></li>
-            <ul>
-                <li><span>Equipment maintenance</span></li>
-                <li><span>Operating a central equipment depot</span></li>
-                <li><span>Meal preparation</span></li>
-                <li><span>Camp sanitation</span></li>
-                <li><span>Camp activity setup</span></li>
-            </ul>
-          </ul>
-  
+                <div class="tile is-parent">
+                    <div class="level box project-box">
+                        <div class="tile is-child has-text-centered">
+                            <a href="https://github.com/hexalellogram/CATS-OSS">
+                                <figure class="image project-image is-inline-block mb-3">
+                                    <img src="imgs/project2.png" class="project-image">
+                                </figure>
+                                <h1 class="title has-text-centered">
+                                    Cyber Activity Tracking System (CATS)
+                                </h1>
+                                <h2 class="subtitle has-text-centered">
+                                    A system to track issues for geographically distributed cybersecurity competitions submitted via Google Forms.
+                                </h2>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tile is-parent">
+                    <div class="level box project-box">
+                        <div class="tile is-child has-text-centered">
+                            <a href="https://github.com/hexalellogram/iPhoneBatteryClient">
+                                <figure class="image project-image is-inline-block mb-3">
+                                    <img src="imgs/project3.png" class="project-image">
+                                </figure>
+                                <h1 class="title has-text-centered">
+                                    iPhone Battery Client
+                                </h1>
+                                <h2 class="subtitle has-text-centered">
+                                    An Apple Watch app to synchronize battery percentage between a paired iPhone and Apple Watch.
+                                </h2>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="tile is-ancestor">
+                
+                <div class="tile is-parent">
+                    <div class="level box project-box">
+                        <div class="tile is-child has-text-centered">
+                            <a href="https://github.com/hexalellogram/sonyConnect">
+                                <figure class="image project-image is-inline-block mb-3">
+                                    <img src="imgs/project4.png" class="project-image">
+                                </figure>
+                                <h1 class="title has-text-centered">
+                                    Connect Sony Headphones Script
+                                </h1>
+                                <h2 class="subtitle has-text-centered">
+                                    A Bash script to connect my Sony WH-900N headphones to my Linux desktop using Bluetooth and the A2DP device profile.
+                                </h2>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="tile is-parent">
+                    <div class="level box project-box">
+                        <div class="tile is-child has-text-centered">
+                            <a href="https://github.com/hexalellogram/ROMDocumentation">
+                                <figure class="image project-image is-inline-block mb-3">
+                                    <img src="imgs/project5.png" class="project-image">
+                                </figure>
+                                <h1 class="title has-text-centered">
+                                    ROM Documentation Project
+                                </h1>
+                                <h2 class="subtitle has-text-centered">
+                                    Documentation of my efforts on my Nexus 5 with MultiROM and my OnePlus 3 to install multiple mobile OSes.
+                                </h2>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tile is-parent">
+                    <div class="level box project-box">
+                        <div class="tile is-child has-text-centered">
+                            <a href="https://github.com/hexalellogram/secure-windows-scripts">
+                                <figure class="image project-image is-inline-block mb-3">
+                                    <img src="imgs/project6.png" class="project-image">
+                                </figure>
+                                <h1 class="title has-text-centered">
+                                    Windows Workstation Security Scripts
+                                </h1>
+                                <h2 class="subtitle has-text-centered">
+                                    A set of Windows scripts (mostly PowerShell) to secure a Windows workstation.
+                                </h2>
+                                <h2 class="subtitle has-text-centered">
+                                    <b>WARNING: Do not use in a production environment.</b>
+                                </h2>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
 
-        <div id="extracurriculars-header" class="color-change resume-header">
-          <div class="divider color-change"></div>
-          <h2> Extracurricular Activities and Awards </h2>
-          <div class="divider color-change"></div>
-        </div> 
-  
-        <div id="extracurriculars" class="resume-section">
-          <span class = "title color-change">CyberPatriot Program at Valencia High School</span><br class = "bigbr">
-          <span class = "dates"> September 2015 - June 2019</span><br class = "smallbr">
-          <span class = "resume">President</span><br class="bigbr">
-          <span class = "location">Placentia, California</span><br>
-          <ul class = "bullets">
-            <li><span>CyberPatriot VIII: Regional Finalist, Western Region, Gold Tier</span></li>
-            <li><span>CyberPatriot IX: Regional Finalist, Western Region, Platinum Tier</span></li>
-            <li><span>CyberPatriot X: National Semifinalist, Platinum Tier</span></li>
-            <li><span>CyberPatriot XI: National Semifinalist, Platinum Tier</span></li>
-            <li><span>Developed teaching curriculum for securing Windows and Linux workstations and servers, laying foundation for team's multi-year national semifinalist ranking</span></li>
-            <li><span>Taught 70+ middle and high school students the above mentioned curriculum, helping others to achieve national semifinalist rank</span></li>
-            <li><span>Completed logistical tasks for team administration</span></li>
-          </ul>
-  
-          <span class = "title color-change">Capture the Flag Competition History</span><br>
-          <ul class = "bullets">
-            <li><span><a href="https://hsctf.com/">HSCTF</a> - Spring 2017, Spring 2018</span></li>
-            <li><span><a href="https://mitrestemctf.org/">Mitre STEM CTF: Cyber Challenge</a> - Spring 2019</span></li>
-            <li><span><a href="https://nationalcyberleague.org/">National Cyber League</a> - Spring 2018, Spring 2019</span></li>
-            <li><span><a href="https://2018.pactf.com/">PACTF</a> - Spring 2018</span></li>
-            <li><span><a href="https://picoctf.com/">PicoCTF</a> - Spring 2017, Spring 2018</span></li>
-          </ul>
-  
-          <span class = "title color-change">California Mayors' Cyber Cup</span><br>
-          <ul class = "bullets">
-            <li><span>3rd Place - Orange County Division, 2018</span></li>
-          </ul>
-  
-          <span class = "title color-change">Boy Scouts of America</span><br class = "bigbr">
-          <span class = "dates"> September 2013 - February 2019</span><br class = "smallbr">
-          <span class = "resume">Eagle Scout with Bronze and Gold Palms</span><br class="bigbr">
-          <span class = "location">Brea, California</span><br>
-          <ul class = "bullets">
-            <li><span>Troop 811, Orange County Council</span></li>
-            <li><span>Numerous Leadership Positions Held:</span></li>
-            <ul>
-              <li><span>Senior Patrol Leader</span></li>
-              <li><span>Quartermaster</span></li>
-              <li><span>Scribe</span></li>
-              <li><span>Assistant Senior Patrol Leader</span></li>
-              <li><span>Patrol Leader</span></li>
-              <li><span>Assistant Patrol Leader</span></li>
-            </ul>
-          </ul>
-  
+    </section>
+
+    <section class="hero is-dark" id="contributions">
+        <div class="hero-body">
+            <h1 class="title">
+                Projects I've Contributed To
+            </h1>
+            <h2 class="subtitle">
+                Click any of the projects to go to its repository or website.
+            </h2>
+
+            <div class="tile is-ancestor">
+
+                <div class="tile is-parent">
+                    <div class="level box project-box">
+                        <div class="tile is-child has-text-centered">
+                            <a href="https://github.com/rbaker26/BigBlueBox">
+                                <figure class="image project-image is-inline-block mb-3">
+                                    <img src="imgs/contribute1.png" class="project-image">
+                                </figure>
+                                <h1 class="title has-text-centered">
+                                    BigBlueBox
+                                </h1>
+                                <h2 class="subtitle has-text-centered">
+                                    An Inventory Management System for a NYLT Course or other Boy Scout Programs. I helped test the application that would be deployed.
+                                </h2>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="tile is-parent">
+                    <div class="level box project-box">
+                        <div class="tile is-child has-text-centered">
+                            <a href="https://github.com/Homebrew/homebrew-cask">
+                                <figure class="image project-image is-inline-block mb-3">
+                                    <img src="imgs/contribute2.png" class="project-image">
+                                </figure>
+                                <h1 class="title has-text-centered">
+                                    Homebrew Cask
+                                </h1>
+                                <h2 class="subtitle has-text-centered">
+                                    Homebrew Cask is a framework to manage macOS applications via the command line. I updated a few application Casks for Homebrew for a time.
+                                </h2>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tile is-parent">
+                    <div class="level box project-box">
+                        <div class="tile is-child has-text-centered">
+                            <a href="https://github.com/cool00geek/CyberTigerScoreboard">
+                                <figure class="image project-image is-inline-block mb-3">
+                                    <img src="imgs/contribute3.png" class="project-image">
+                                </figure>
+                                <h1 class="title has-text-centered">
+                                    Cyber Tiger Scoreboard
+                                </h1>
+                                <h2 class="subtitle has-text-centered">
+                                    A scoring graph system, inspired by the official CyberPatriot Scoring engine. I helped test the application before deployment.
+                                </h2>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+
+            <div class="tile is-ancestor">
+
+                <div class="tile is-parent">
+                    <div class="level box project-box">
+                        <div class="tile is-child has-text-centered">
+                            <a href="https://github.com/cool00geek/vhscyberpatriot">
+                                <figure class="image project-image is-inline-block mb-3">
+                                    <img src="imgs/contribute4.png" class="project-image">
+                                </figure>
+                                <h1 class="title has-text-centered">
+                                    VHS CyberPatriot Website
+                                </h1>
+                                <h2 class="subtitle has-text-centered">
+                                    The former website of the Valencia High School CyberPatriot team, now defunct. I helped manage and create content for the website, as well as helping with the initial deployment.
+                                </h2>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tile is-parent">
+                    <div class="level box project-box">
+                        <div class="tile is-child has-text-centered">
+                            <a href="https://github.com/hexalellogram/FlyerScanner">
+                                <figure class="image project-image is-inline-block mb-3">
+                                    <img src="imgs/contribute5.png" class="project-image">
+                                </figure>
+                                <h1 class="title has-text-centered">
+                                    FlyerScanner
+                                </h1>
+                                <h2 class="subtitle has-text-centered">
+                                    An Android app designed to help you better keep track of events using Machine Learning. Created for the SDHacks 2019 hackathon, with a team of 4 others.
+                                </h2>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
         </div>
 
-        <div id="contribution-header" class="color-change resume-header">
-          <div class="divider color-change"></div>
-          <h2> Contributions and Attributions </h2>
-          <div class="divider color-change"></div>
+    </section>
+
+    <section class="hero is-dark" id="resume">
+        <div class="hero-body">
+            <h1 class="title">Online Resume</h1>
+            <h1 class="subtitle">An online listing of my experiences and accomplishments</h1>
+        </div>
+    </section>
+
+    <section class="hero is-dark" id="education">
+        <div class="hero-body">
+            <h1 class="title">Education</h1>
+            <h2 class="subtitle">
+                Click any school for more details.
+            </h2>
+            
+            <div class="tile is-ancestor">
+
+                <div class="tile is-parent">
+                    <div class="level box project-box" onclick="toggleModal('ucsd-modal');">
+                        <div class="tile is-child has-text-centered">
+                            <figure class="image project-image is-inline-block mb-3">
+                                <img src="imgs/ucsd.png" class="project-image">
+                            </figure>
+                            <h1 class="title has-text-centered">
+                                University of California, San Diego
+                            </h1>
+                            <h2 class="subtitle has-text-centered">
+                                September 2019 - June 2023 (expected)
+                            </h2>
+                            <h2 class="subtitle has-text-centered">
+                                Computer Science (B.S.), Political Science Minor
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal" id="ucsd-modal">	
+                    <div class="modal-background" onclick="toggleModal('ucsd-modal');"></div>	
+                    <div class="modal-content">	
+                        <div class="card project-card mx-3">	
+                            <header class="card-header">	
+                                <p class="card-header-title">	
+                                    University of California, San Diego
+                                </p>
+                            </header>	
+                            <div class="card-image mx-3 my-3">	
+                                <figure class="image">	
+                                    <img src="imgs/ucsd.png">	
+                                </figure>	
+                            </div>	
+                            <div class="card-content content">	
+                                <ul class="has-text-black">
+                                    <li>Class of 2023 (expected)</li>
+                                    <li>Location: San Diego, CA</li>
+                                    <li>Computer Science (B.S.), Political Science Minor</li>
+                                    <li>Earl Warren College</li>
+                                    <li>UCSD Regents Scholar - awarded to entering undergraduate students based on academic excellence</li>
+                                    <li>Provost's Honors - awarded to undergraduate students based on academic excellence in previous quarters</li>
+                                </ul>
+                            </div>	
+                        </div>	
+                    </div>	
+                    <button class="modal-close is-large" aria-label="close" onclick="toggleModal('ucsd-modal');"></button>	
+                </div>
+
+                <div class="tile is-parent">
+                    <div class="level box project-box" onclick="toggleModal('vhs-modal');">
+                        <div class="tile is-child has-text-centered">
+                            <figure class="image project-image is-inline-block mb-3">
+                                <img src="imgs/vhs.png" class="project-image">
+                            </figure>
+                            <h1 class="title has-text-centered">
+                                Valencia High School
+                            </h1>
+                            <h2 class="subtitle has-text-centered">
+                                September 2015 - June 2019
+                            </h2>
+                            <h2 class="subtitle has-text-centered">
+                                International Baccalaureate Diploma, Valencia Technology Diploma
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal" id="vhs-modal">	
+                    <div class="modal-background" onclick="toggleModal('vhs-modal');"></div>	
+                    <div class="modal-content">	
+                        <div class="card project-card mx-3 my-3">	
+                            <header class="card-header">	
+                                <p class="card-header-title">	
+                                    Valencia High School
+                                </p>
+                            </header>	
+                            <div class="card-image mx-3">	
+                                <figure class="image">	
+                                    <img src="imgs/vhs.png">	
+                                </figure>	
+                            </div>
+                            <div class="card-content content">	
+                                <ul class="has-text-black">
+                                    <li>Class of 2019</li>
+                                    <li>Location: Placentia, CA</li>
+                                    <li>International Baccalaureate Diploma</li>
+                                    <li>Valencia Technology Diploma, Computer Science Pathway</li>
+                                    <li>Tiger of the Year Finalist, 2019: Nominee for valedictorian-equivalent award</li>
+                                </ul>
+                            </div>	
+                        </div>	
+                    </div>	
+                    <button class="modal-close is-large" aria-label="close" onclick="toggleModal('vhs-modal');"></button>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="hero is-dark" id="work-experience">
+        <div class="hero-body">
+            <h1 class="title">Work Experience</h1>
+            <h2 class="subtitle">
+                Click any job experience for more details.
+            </h2>
+            
+            <div class="tile is-ancestor">
+
+                <div class="tile is-parent">
+                    <div class="level box project-box" onclick="toggleModal('intelect-modal');">
+                        <div class="tile is-child has-text-centered">
+                            <figure class="image project-image is-inline-block mb-3">
+                                <img src="imgs/intelect.png" class="project-image">
+                            </figure>
+                            <h1 class="title has-text-centered">
+                                IntElect
+                            </h1>
+                            <h2 class="subtitle has-text-centered">
+                                Research Intern
+                            </h2>
+                            <h2 class="subtitle has-text-centered">
+                                April 2020 - Present
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal" id="intelect-modal">	
+                    <div class="modal-background" onclick="toggleModal('intelect-modal');"></div>	
+                    <div class="modal-content">	
+                        <div class="card project-card mx-3">	
+                            <header class="card-header">	
+                                <p class="card-header-title">
+                                    IntElect
+                                </p>
+                            </header>	
+                            <div class="card-image mx-3 my-3">	
+                                <figure class="image">	
+                                    <img src="imgs/intelect.png">	
+                                </figure>	
+                            </div>	
+                            <div class="card-content content">	
+                                <ul class="has-text-black">
+                                    <li>Location: Greater San San Diego Area, CA</li>
+                                    <li>Responsible for market research for our product, including gathering demographic and academic statistics on University of California campuses.</li>
+                                    <li>Created and distributed surveys to UC San Diego students that would indicate the viability of our product.</li>
+                                    <li>Supervised and led matching of UC San Diego courses to critical skills for software engineers.</li>
+                                </ul>
+                            </div>	
+                        </div>	
+                    </div>	
+                    <button class="modal-close is-large" aria-label="close" onclick="toggleModal('intelect-modal');"></button>	
+                </div>
+
+                <div class="tile is-parent">
+                    <div class="level box project-box" onclick="toggleModal('baycyber-modal');">
+                        <div class="tile is-child has-text-centered">
+                            <figure class="image project-image is-inline-block mb-3">
+                                <img src="imgs/baycyber.png" class="project-image">
+                            </figure>
+                            <h1 class="title has-text-centered">
+                                Bay Area Cyber Competitions
+                            </h1>
+                            <h2 class="subtitle has-text-centered">
+                                Instructor
+                            </h2>
+                            <h2 class="subtitle has-text-centered">
+                                May 2019 - August 2019
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal" id="baycyber-modal">	
+                    <div class="modal-background" onclick="toggleModal('baycyber-modal');"></div>	
+                    <div class="modal-content">	
+                        <div class="card project-card mx-3 my-3">	
+                            <header class="card-header">	
+                                <p class="card-header-title">	
+                                    Bay Area Cyber Competitions
+                                </p>
+                            </header>	
+                            <div class="card-image mx-3">	
+                                <figure class="image">
+                                    <img src="imgs/baycyber.png">	
+                                </figure>	
+                            </div>
+                            <div class="card-content content">	
+                                <ul class="has-text-black">
+                                    <li>Location: San Francisco Bay Area, CA</li>
+                                    <li>Taught introductory and advanced cybersecurity skills summer camps for 30 middle and high school students per week.</li>
+                                    <li>Introductory cybersecurity summer camps subject topics:</li>
+                                        <ul>
+                                            <li>Digital footprint</li>
+                                            <li>Windows workstation security</li>
+                                            <li>Basic Linux command line skills</li>
+                                            <li>Digital forensics with Autopsy</li>
+                                            <li>Packet Tracer</li>
+                                            <li>Wireshark</li>
+                                        </ul>
+                                    <li>Advanced cybersecurity summer camps subject topics:</li>
+                                        <ul>
+                                            <li>Introduction to open source intelligence</li>
+                                            <li>Introduction to cryptography</li>
+                                            <li>OWASP Juice Shop</li>
+                                            <li>Basic Splunk</li>
+                                        </ul>
+                                    <li>Taught at 3 community colleges: Merritt College in Oakland, Evergreen Valley College in San Jose, and Foothill College Sunnyvale Center in Sunnyvale</li>
+                                    <li>Developed, tested, and deployed various online competitions involving 400+ students per week, reinforcing their cybersecurity skills</li>
+                                </ul>
+                            </div>	
+                        </div>	
+                    </div>	
+                    <button class="modal-close is-large" aria-label="close" onclick="toggleModal('baycyber-modal');"></button>
+                </div>
+
+                <div class="tile is-parent">
+                    <div class="level box project-box" onclick="toggleModal('csuf-modal');">
+                        <div class="tile is-child has-text-centered">
+                            <figure class="image project-image is-inline-block mb-3">
+                                <img src="imgs/csuf.png" class="project-image">
+                            </figure>
+                            <h1 class="title has-text-centered">
+                                CSUF Computer Science Department
+                            </h1>
+                            <h2 class="subtitle has-text-centered">
+                                Intern
+                            </h2>
+                            <h2 class="subtitle has-text-centered">
+                                June 2018 - August 2018
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal" id="csuf-modal">
+                    <div class="modal-background" onclick="toggleModal('csuf-modal');"></div>	
+                    <div class="modal-content">	
+                        <div class="card project-card mx-3 my-3">	
+                            <header class="card-header">	
+                                <p class="card-header-title">	
+                                    CSUF Computer Science Department
+                                </p>
+                            </header>	
+                            <div class="card-image mx-3">	
+                                <figure class="image">
+                                    <img src="imgs/csuf.png">	
+                                </figure>	
+                            </div>
+                            <div class="card-content content">	
+                                <ul class="has-text-black">
+                                    <li>Location: Fullerton, CA</li>
+                                    <li>Researched applications of cybersecurity in healthcare under Professor Shawn Wang to provide insight into youth views on healthcare data security.</li>
+                                    <li>Authored a collaborative report about the findings of this research which aided Professor Wang's research.</li>
+                                    <li>Compiled suggestions on compliance with government data security regulations and best practices for data security.</li>
+                                </ul>
+                            </div>	
+                        </div>	
+                    </div>	
+                    <button class="modal-close is-large" aria-label="close" onclick="toggleModal('csuf-modal');"></button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="hero is-dark" id="volunteer-experience">
+        <div class="hero-body">
+            <h1 class="title">Volunteer Experience and Other Activities</h1>
+            <h2 class="subtitle">
+                Click any volunteer experience or activity for more details.
+            </h2>
+            
+            <div class="tile is-ancestor">
+
+                <div class="tile is-parent">
+                    <div class="level box project-box" onclick="toggleModal('acm-vpf-modal');">
+                        <div class="tile is-child has-text-centered">
+                            <figure class="image project-image is-inline-block mb-3">
+                                <img src="imgs/acm.png" class="project-image">
+                            </figure>
+                            <h1 class="title has-text-centered">
+                                Association for Computing Machinery, UC San Diego
+                            </h1>
+                            <h2 class="subtitle has-text-centered">
+                                Vice President Finance
+                            </h2>
+                            <h2 class="subtitle has-text-centered">
+                                May 2020 - Present
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal" id="acm-vpf-modal">	
+                    <div class="modal-background" onclick="toggleModal('acm-vpf-modal');"></div>	
+                    <div class="modal-content">	
+                        <div class="card project-card mx-3">	
+                            <header class="card-header">	
+                                <p class="card-header-title">
+                                    ACM UCSD - VP Finance
+                                </p>
+                            </header>	
+                            <div class="card-image mx-3 my-3">	
+                                <figure class="image">	
+                                    <img src="imgs/acm.png">	
+                                </figure>	
+                            </div>	
+                            <div class="card-content content">	
+                                <ul class="has-text-black">
+                                    <li>Location: San Diego, CA</li>
+                                    <li>Managed reimbursement and financial filings with Associated Students for over 100+ ACM UCSD events for 2020-2021.</li>
+                                    <li>Oversaw and budgeted for thousands of dollars in sponsorship money, fundraiser proceeds, and university-allocated funding.</li>
+                                </ul>
+                            </div>	
+                        </div>	
+                    </div>	
+                    <button class="modal-close is-large" aria-label="close" onclick="toggleModal('acm-vpf-modal');"></button>	
+                </div>
+
+                <div class="tile is-parent">
+                    <div class="level box project-box" onclick="toggleModal('acm-staff-modal');">
+                        <div class="tile is-child has-text-centered">
+                            <figure class="image project-image is-inline-block mb-3">
+                                <img src="imgs/acm.png" class="project-image">
+                            </figure>
+                            <h1 class="title has-text-centered">
+                                Association for Computing Machinery, UC San Diego
+                            </h1>
+                            <h2 class="subtitle has-text-centered">
+                                Staff Director
+                            </h2>
+                            <h2 class="subtitle has-text-centered">
+                                November 2019 - May 2020
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal" id="acm-staff-modal">	
+                    <div class="modal-background" onclick="toggleModal('acm-staff-modal');"></div>	
+                    <div class="modal-content">	
+                        <div class="card project-card mx-3 my-3">	
+                            <header class="card-header">	
+                                <p class="card-header-title">	
+                                    ACM UCSD - Staff Director
+                                </p>
+                            </header>	
+                            <div class="card-image mx-3">	
+                                <figure class="image">
+                                    <img src="imgs/acm.png">	
+                                </figure>	
+                            </div>
+                            <div class="card-content content">	
+                                <ul class="has-text-black">
+                                    <li>Location: San Diego, CA</li>
+                                    <li>Connected 60+ volunteer staff members with instructional workshops and opportunities on a monthly basis.</li>
+                                    <li>Coordinated volunteer staff in providing logistical and instructional support to 850+ members of the ACM@UCSD community.</li>
+                                </ul>
+                            </div>	
+                        </div>	
+                    </div>	
+                    <button class="modal-close is-large" aria-label="close" onclick="toggleModal('acm-staff-modal');"></button>
+                </div>
+
+                <div class="tile is-parent">
+                    <div class="level box project-box" onclick="toggleModal('cp-coastline-modal');">
+                        <div class="tile is-child has-text-centered">
+                            <figure class="image project-image is-inline-block mb-3">
+                                <img src="imgs/cyberpatriot-coastline.png" class="project-image">
+                            </figure>
+                            <h1 class="title has-text-centered">
+                                CyberPatriot Program at Coastline Community College
+                            </h1>
+                            <h2 class="subtitle has-text-centered">
+                                Mentor
+                            </h2>
+                            <h2 class="subtitle has-text-centered">
+                                September 2016 - June 2019
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal" id="cp-coastline-modal">
+                    <div class="modal-background" onclick="toggleModal('cp-coastline-modal');"></div>	
+                    <div class="modal-content">	
+                        <div class="card project-card mx-3 my-3">	
+                            <header class="card-header">	
+                                <p class="card-header-title">	
+                                    CyberPatriot Program at Coastline Community College
+                                </p>
+                            </header>	
+                            <div class="card-image mx-3">	
+                                <figure class="image">
+                                    <img src="imgs/cyberpatriot-coastline.png">	
+                                </figure>	
+                            </div>
+                            <div class="card-content content">	
+                                <ul class="has-text-black">
+                                    <li>Location: Garden Grove, CA</li>
+                                    <li>Taught middle and high school students cybersecurity skills at Coastline Community College.</li>
+                                    <li>Students ranked nationally in the CyberPatriot cybersecurity competition, reaching ranks of up to National Semifinalist.</li>
+                                    <li>Skills taught included:</li>
+                                        <ul>
+                                            <li>Securing Microsoft Windows workstations</li>
+                                            <li>Securing Microsoft Windows servers</li>
+                                            <li>Securing Ubuntu Linux workstations</li>
+                                            <li>Securing Ubuntu Linux servers</li>
+                                        </ul>
+                                </ul>
+                            </div>	
+                        </div>	
+                    </div>	
+                    <button class="modal-close is-large" aria-label="close" onclick="toggleModal('cp-coastline-modal');"></button>
+                </div>
+
+            </div>
+
+            <div class="tile is-ancestor">
+
+                <div class="tile is-parent">
+                    <div class="level box project-box" onclick="toggleModal('nylt-gps-modal');">
+                        <div class="tile is-child has-text-centered">
+                            <figure class="image project-image is-inline-block mb-3">
+                                <img src="imgs/nylt.png" class="project-image">
+                            </figure>
+                            <h1 class="title has-text-centered">
+                                Boy Scouts of America, Orange County Council - National Youth Leadership Training
+                            </h1>
+                            <h2 class="subtitle has-text-centered">
+                                GPS Geocache Lead Instructor
+                            </h2>
+                            <h2 class="subtitle has-text-centered">
+                                December 2015 - June 2018
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal" id="nylt-gps-modal">	
+                    <div class="modal-background" onclick="toggleModal('nylt-gps-modal');"></div>	
+                    <div class="modal-content">	
+                        <div class="card project-card mx-3">	
+                            <header class="card-header">	
+                                <p class="card-header-title">
+                                    NYLT - GPS Geocache Lead Instructor
+                                </p>
+                            </header>	
+                            <div class="card-image mx-3 my-3">	
+                                <figure class="image">	
+                                    <img src="imgs/nylt.png">
+                                </figure>	
+                            </div>	
+                            <div class="card-content content">	
+                                <ul class="has-text-black">
+                                    <li>Location: Santa Ana, CA</li>
+                                    <li>Oversaw and operated the Geocache activity for OCBSA's National Youth Leadership Training (NYLT) program.</li>
+                                    <li>Taught 150 youth participants each year in 16 or more teams of Scouts.</li>
+                                    <li>Reinforced participants' skills of teamwork and leadership</li>
+                                    <li>Responsibilities included:</li>
+                                        <ul>
+                                            <li>Creating all materials for the course</li>
+                                            <li>Evaluating the suitability of camp locations for inclusion in the course</li>
+                                            <li>Supervising ~50 staff members in running the course</li>
+                                            <li>Managing GPS equipment</li>
+                                        </ul>
+                                </ul>
+                            </div>	
+                        </div>	
+                    </div>	
+                    <button class="modal-close is-large" aria-label="close" onclick="toggleModal('nylt-gps-modal');"></button>	
+                </div>
+
+                <div class="tile is-parent">
+                    <div class="level box project-box" onclick="toggleModal('nylt-q-corps-lt-modal');">
+                        <div class="tile is-child has-text-centered">
+                            <figure class="image project-image is-inline-block mb-3">
+                                <img src="imgs/nylt.png" class="project-image">
+                            </figure>
+                            <h1 class="title has-text-centered">
+                                Boy Scouts of America, Orange County Council - National Youth Leadership Training
+                            </h1>
+                            <h2 class="subtitle has-text-centered">
+                                Quartermaster Lieutenant
+                            </h2>
+                            <h2 class="subtitle has-text-centered">
+                                December 2017 - June 2018
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal" id="nylt-q-corps-lt-modal">	
+                    <div class="modal-background" onclick="toggleModal('nylt-q-corps-lt-modal');"></div>	
+                    <div class="modal-content">	
+                        <div class="card project-card mx-3">	
+                            <header class="card-header">	
+                                <p class="card-header-title">
+                                    NYLT - Quartermaster Lieutenant
+                                </p>
+                            </header>	
+                            <div class="card-image mx-3 my-3">	
+                                <figure class="image">	
+                                    <img src="imgs/nylt.png">
+                                </figure>	
+                            </div>	
+                            <div class="card-content content">	
+                                <ul class="has-text-black">
+                                    <li>Location: Santa Ana, CA</li>
+                                    <li>Led a team of 5 youth staff volunteers in camp management and logistics tasks during the duration of the NYLT course.</li>
+                                    <li>Tasks included, but were not limited to:</li>
+                                        <ul>
+                                            <li>Equipment maintenance</li>
+                                            <li>Operating a central equipment depot</li>
+                                            <li>Meal preparation</li>
+                                            <li>Camp sanitation</li>
+                                            <li>Camp activity setup</li>
+                                        </ul>
+                                </ul>
+                            </div>	
+                        </div>	
+                    </div>	
+                    <button class="modal-close is-large" aria-label="close" onclick="toggleModal('nylt-q-corps-lt-modal');"></button>	
+                </div>
+
+                <div class="tile is-parent">
+                    <div class="level box project-box" onclick="toggleModal('nylt-q-corps-modal');">
+                        <div class="tile is-child has-text-centered">
+                            <figure class="image project-image is-inline-block mb-3">
+                                <img src="imgs/nylt.png" class="project-image">
+                            </figure>
+                            <h1 class="title has-text-centered">
+                                Boy Scouts of America, Orange County Council - National Youth Leadership Training
+                            </h1>
+                            <h2 class="subtitle has-text-centered">
+                                Quartermaster
+                            </h2>
+                            <h2 class="subtitle has-text-centered">
+                                December 2015 - June 2017
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal" id="nylt-q-corps-modal">	
+                    <div class="modal-background" onclick="toggleModal('nylt-q-corps-modal');"></div>	
+                    <div class="modal-content">	
+                        <div class="card project-card mx-3">	
+                            <header class="card-header">	
+                                <p class="card-header-title">
+                                    NYLT - Quartermaster
+                                </p>
+                            </header>	
+                            <div class="card-image mx-3 my-3">	
+                                <figure class="image">	
+                                    <img src="imgs/nylt.png">
+                                </figure>	
+                            </div>	
+                            <div class="card-content content">	
+                                <ul class="has-text-black">
+                                    <li>Location: Santa Ana, CA</li>
+                                    <li>Carried out camp management and logistics tasks during the duration of the NYLT course.</li>
+                                    <li>Tasks included, but were not limited to:</li>
+                                        <ul>
+                                            <li>Equipment maintenance</li>
+                                            <li>Operating a central equipment depot</li>
+                                            <li>Meal preparation</li>
+                                            <li>Camp sanitation</li>
+                                            <li>Camp activity setup</li>
+                                        </ul>
+                                </ul>
+                            </div>	
+                        </div>	
+                    </div>	
+                    <button class="modal-close is-large" aria-label="close" onclick="toggleModal('nylt-q-corps-modal');"></button>	
+                </div>
+
+            </div>
+
+            <div class="tile is-ancestor">
+
+                <div class="tile is-parent">
+                    <div class="level box project-box" onclick="toggleModal('cp-vhs-modal');">
+                        <div class="tile is-child has-text-centered">
+                            <figure class="image project-image is-inline-block mb-3">
+                                <img src="imgs/cyberpatriot.png" class="project-image">
+                            </figure>
+                            <h1 class="title has-text-centered">
+                                CyberPatriot Program at Valencia High School
+                            </h1>
+                            <h2 class="subtitle has-text-centered">
+                                Founding President
+                            </h2>
+                            <h2 class="subtitle has-text-centered">
+                                September 2015 - June 2019
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal" id="cp-vhs-modal">	
+                    <div class="modal-background" onclick="toggleModal('cp-vhs-modal');"></div>	
+                    <div class="modal-content">	
+                        <div class="card project-card mx-3">	
+                            <header class="card-header">	
+                                <p class="card-header-title">
+                                    CyberPatriot Program at Valencia High School
+                                </p>
+                            </header>	
+                            <div class="card-image mx-3 my-3">	
+                                <figure class="image">	
+                                    <img src="imgs/cyberpatriot.png">
+                                </figure>	
+                            </div>	
+                            <div class="card-content content">	
+                                <ul class="has-text-black">
+                                    <li>Location: Placentia, CA</li>
+                                    <li>Developed teaching curriculum for securing Windows and Linux workstations and servers, laying foundation for team's multi-year national semifinalist ranking.</li>
+                                    <li>Taught 70+ middle and high school students the above mentioned curriculum, helping others to achieve national semifinalist rank.</li>
+                                    <li>Completed logistical tasks for team administration.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="modal-close is-large" aria-label="close" onclick="toggleModal('cp-vhs-modal');"></button>	
+                </div>
+
+                <div class="tile is-parent">
+                    <div class="level box project-box" onclick="toggleModal('scouts-modal');">
+                        <div class="tile is-child has-text-centered">
+                            <figure class="image project-image is-inline-block mb-3">
+                                <img src="imgs/scouts.png" class="project-image">
+                            </figure>
+                            <h1 class="title has-text-centered">
+                                Boy Scouts of America, Troop 811
+                            </h1>
+                            <h2 class="subtitle has-text-centered">
+                                Rank: Eagle Scout | Numerous Leadership Positions
+                            </h2>
+                            <h2 class="subtitle has-text-centered">
+                                February 2012 - February 2018
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal" id="scouts-modal">	
+                    <div class="modal-background" onclick="toggleModal('scouts-modal');"></div>	
+                    <div class="modal-content">	
+                        <div class="card project-card mx-3">	
+                            <header class="card-header">	
+                                <p class="card-header-title">
+                                    Boy Scouts of America, Troop 811
+                                </p>
+                            </header>	
+                            <div class="card-image mx-3 my-3">	
+                                <figure class="image">	
+                                    <img src="imgs/scouts.png">
+                                </figure>	
+                            </div>	
+                            <div class="card-content content">	
+                                <ul class="has-text-black">
+                                    <li>Location: Brea, CA</li>
+                                    <li>Troop 811, Portola District, Orange County Council</li>
+                                    <li>Reached the rank of <b>Eagle Scout</b>, the highest rank in Boy Scouting attained by less than 5% of Scouts.</li>
+                                        <ul>
+                                            <li>Also attained <b>Bronze and Gold Palms</b>, supplementary awards on top of the Eagle Scout rank.</li>
+                                        </ul>
+                                    <li>Led my <b>Eagle Project</b>, which involved fundraising for, assembling, and distributing 630 kits of hygiene materials to the homeless of Skid Row in Los Angeles.</li>
+                                    <li>Served as leader of the entire troop as <b>Senior Patrol Leader</b>, the highest youth leadership position in a Boy Scout Troop, and <b>Assistant Senior Patrol Leader</b>, the second highest youth leadership position in the troop.</li>
+                                    <li>Kept a detailed record of all Troop events and meetings during my tenure as <b>Scribe</b>.</li>
+                                    <li>As <b>Troop Quartermaster</b>:</li>
+                                        <ul>
+                                            <li>Managed the Troop's inventory of camping equipment, like stoves, tents, and other gear.</li>
+                                            <li>Created a computerized asset management system to increase accountability for broken equipment and expedite equipment repairs.</li>
+                                        </ul>
+                                    <li>Led numerous small teams through camping challenges and other events as <b>Patrol Leader</b> and <b>Assistant Patrol Leader</b>.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="modal-close is-large" aria-label="close" onclick="toggleModal('scouts-modal');"></button>	
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="hero is-dark" id="awards">
+        <div class="hero-body">
+            <h1 class="title">Awards</h1>
+            <h2 class="subtitle">
+                Click any award for more details.
+            </h2>
+            
+            <div class="tile is-ancestor">
+
+                <div class="tile is-parent">
+                    <div class="level box project-box" onclick="toggleModal('cyberpatriot-award-modal');">
+                        <div class="tile is-child has-text-centered">
+                            <figure class="image project-image is-inline-block mb-3">
+                                <img src="imgs/cyberpatriot.png" class="project-image">
+                            </figure>
+                            <h1 class="title has-text-centered">
+                                CyberPatriot Competition Rankings
+                            </h1>
+                            <h2 class="subtitle has-text-centered">
+                                A cybersecurity competition with a focus on workstation security, hosted by the Air Force Association.
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal" id="cyberpatriot-award-modal">	
+                    <div class="modal-background" onclick="toggleModal('cyberpatriot-award-modal');"></div>	
+                    <div class="modal-content">	
+                        <div class="card project-card mx-3">	
+                            <header class="card-header">	
+                                <p class="card-header-title">
+                                    CyberPatriot Competition Rankings
+                                </p>
+                            </header>	
+                            <div class="card-image mx-3 my-3">	
+                                <figure class="image">	
+                                    <img src="imgs/cyberpatriot.png">	
+                                </figure>	
+                            </div>	
+                            <div class="card-content content">	
+                                <ul class="has-text-black">
+                                    <li>CyberPatriot VIII (2015-2016): Regional Finalist, Western Region, Gold Tier</li>
+                                    <li>CyberPatriot IX (2016-2017): Regional Finalist, Western Region, Platinum Tier</li>
+                                    <li>CyberPatriot X (2017-2018): National Semifinalist, Platinum Tier</li>
+                                    <li>CyberPatriot XI (2018-2019): National Semifinalist, Platinum Tier</li>
+                                </ul>
+                            </div>	
+                        </div>	
+                    </div>	
+                    <button class="modal-close is-large" aria-label="close" onclick="toggleModal('cyberpatriot-award-modal');"></button>	
+                </div>
+
+                <div class="tile is-parent">
+                    <div class="level box project-box" onclick="toggleModal('mayors-cup-award-modal');">
+                        <div class="tile is-child has-text-centered">
+                            <figure class="image project-image is-inline-block mb-3">
+                                <img src="imgs/mayors-cup.png" class="project-image">
+                            </figure>
+                            <h1 class="title has-text-centered">
+                                California Mayors' Cyber Cup Ranking
+                            </h1>
+                            <h2 class="subtitle has-text-centered">
+                                A combination workstation security and CTF (capture the flag) event hosted by the state of California, with regional and state level competitions.
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal" id="mayors-cup-award-modal">	
+                    <div class="modal-background" onclick="toggleModal('mayors-cup-award-modal');"></div>	
+                    <div class="modal-content">	
+                        <div class="card project-card mx-3">	
+                            <header class="card-header">	
+                                <p class="card-header-title">
+                                    California Mayors' Cyber Cup Ranking
+                                </p>
+                            </header>	
+                            <div class="card-image mx-3 my-3">	
+                                <figure class="image">	
+                                    <img src="imgs/mayors-cup.png">	
+                                </figure>	
+                            </div>	
+                            <div class="card-content content">	
+                                <ul class="has-text-black">
+                                    <li>3rd Place, Orange County Division, 2018</li>
+                                </ul>
+                            </div>	
+                        </div>	
+                    </div>	
+                    <button class="modal-close is-large" aria-label="close" onclick="toggleModal('mayors-cup-award-modal');"></button>	
+                </div>
+
+                <div class="tile is-parent">
+                    <div class="level box project-box" onclick="toggleModal('ctf-award-modal');">
+                        <div class="tile is-child has-text-centered">
+                            <figure class="image project-image is-inline-block mb-3">
+                                <img src="imgs/ctf-bright.png" class="project-image">
+                            </figure>
+                            <h1 class="title has-text-centered">
+                                Capture the Flag Competition History
+                            </h1>
+                            <h2 class="subtitle has-text-centered">
+                                Cybersecurity competitions, with a focus on topics such as cryptography, packet analysis, log analysis, etc.
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal" id="ctf-award-modal">	
+                    <div class="modal-background" onclick="toggleModal('ctf-award-modal');"></div>	
+                    <div class="modal-content">	
+                        <div class="card project-card mx-3">	
+                            <header class="card-header">	
+                                <p class="card-header-title">
+                                    Capture the Flag Competition History
+                                </p>
+                            </header>	
+                            <div class="card-image mx-3 my-3">	
+                                <figure class="image">	
+                                    <img src="imgs/ctf.png">	
+                                </figure>	
+                            </div>	
+                            <div class="card-content content">	
+                                <ul class="has-text-black">
+                                    <li><a href="https://hsctf.com/">HSCTF</a> - Spring 2017, Spring 2018</li>
+                                    <li><a href="https://mitrestemctf.org/">Mitre STEM CTF: Cyber Challenge</a> - Spring 2019</li>
+                                    <li><a href="https://nationalcyberleague.org/">National Cyber League</a> - Spring 2018, Spring 2019</li>
+                                    <li><a href="https://2018.pactf.com/">PACTF</a> - Spring 2018</li>
+                                    <li><a href="https://picoctf.com/">PicoCTF</a> - Spring 2017, Spring 2018</li>
+                                </ul>
+                            </div>	
+                        </div>	
+                    </div>	
+                    <button class="modal-close is-large" aria-label="close" onclick="toggleModal('ctf-award-modal');"></button>	
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="hero is-dark" id="fun">
+        <div class="hero-body">
+            <h1 class="title">Fun Stuff</h1>
+            <h2 class="subtitle">
+                Stuff that I do and enjoy in my spare time.
+            </h2>
+            
+            <div class="tile is-ancestor">
+
+                <div class="tile is-parent">
+                    <div class="level box project-box">
+                        <div class="tile is-child has-text-centered">
+                            <figure class="image project-image is-inline-block mb-3">
+                                <img src="imgs/pogo.jpg" class="project-image">
+                            </figure>
+                            <h1 class="title has-text-centered">
+                                Mobile Gaming
+                            </h1>
+                            <h2 class="subtitle has-text-centered">
+                                I avidly play the mobile game <b>Pokemon Go</b> on a regular basis, as well as games like <b>Tiny Tower</b>.
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tile is-parent">
+                    <div class="level box project-box">
+                        <div class="tile is-child has-text-centered">
+                            <figure class="image project-image is-inline-block mb-3">
+                                <img src="imgs/steam.png" class="project-image">
+                            </figure>
+                            <h1 class="title has-text-centered">
+                                Desktop Gaming
+                            </h1>
+                            <h2 class="subtitle has-text-centered">
+                                I play several games both on and off Steam, including <b>Faster Than Light</b>, <b>Planetary Annihilation: TITANS</b>, <b>Team Fortress 2</b>, <b>Civilization V</b>, <b>Minecraft</b>, <b>Overwatch</b>, and <b>Kerbal Space Program</b>. I've built my own desktop PC to my own custom specifications as well.
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tile is-parent">
+                    <div class="level box project-box">
+                        <div class="tile is-child has-text-centered">
+                            <figure class="image project-image is-inline-block mb-3">
+                                <img src="imgs/vmware.png" class="project-image">
+                            </figure>
+                            <h1 class="title has-text-centered">
+                                Virtual Machines
+                            </h1>
+                            <h2 class="subtitle has-text-centered">
+                                I enjoy creating and maintaining several virtual machines for fun, including one for ever version of Windows, every version of macOS, niche operating systems like React OS and Haiku OS, and more.
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+
+            <div class="tile is-ancestor">
+
+                <div class="tile is-parent">
+                    <div class="level box project-box" onclick="toggleModal('pogo-modal');">
+                        <div class="tile is-child has-text-centered">
+                            <figure class="image project-image is-inline-block mb-3">
+                                <img src="imgs/starwars.png" class="project-image">
+                            </figure>
+                            <h1 class="title has-text-centered">
+                                Star Wars
+                            </h1>
+                            <h2 class="subtitle has-text-centered">
+                                I'm a fan of the Star Wars universe, having watched all 3 trilogies of movies as well as the TV shows <i>Star Wars: The Clone Wars</i>, <i>Star Wars: Rebels</i>, <i>Star Wars: Resistance</i>, and <i>The Mandalorian</i>.
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tile is-parent">
+                    <div class="level box project-box">
+                        <div class="tile is-child has-text-centered">
+                            <figure class="image project-image is-inline-block mb-3">
+                                <img src="imgs/mcu.png" class="project-image">
+                            </figure>
+                            <h1 class="title has-text-centered">
+                                Marvel Cinematic Universe
+                            </h1>
+                            <h2 class="subtitle has-text-centered">
+                                I'm also a huge fan of the Marvel Cinematic Universe, watching most of the movies soon after their release.
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tile is-parent">
+                    <div class="level box project-box">
+                        <div class="tile is-child has-text-centered">
+                            <figure class="image project-image is-inline-block mb-3">
+                                <img src="imgs/about-portrait.jpg" class="project-image">
+                            </figure>
+                            <h1 class="title has-text-centered">
+                                And much more!
+                            </h1>
+                            <h2 class="subtitle has-text-centered">
+                                I'm also a fan of several other TV shows and other media properties, such as <i>Star Trek</i> and <i>Avatar: The Last Airbender</i>, just to name a few. My interests run both deep and wide.
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+
         </div>
 
-        <div id="contribution">
-          <p>If anything here is confusing (or wrong!), or if I’ve missed important details, please <a href="https://github.com/hexalellogram/hexalellogram.github.io/issues">submit an issue</a>, 
-            or fork the <a href="https://github.com/hexalellogram/hexalellogram.github.io">GitHub repository</a> for this website, make modifications, and submit a pull request.</p>
-          <p>Thanks to <a href="http://ieeeucsd.org/">IEEE at UCSD</a> for putting on the inital workshop that this website was built off of, 
-            <a href="https://chrisbracco.com/a-simple-css-tooltip/">Chris Bracco</a> for the tooltip code used in the Projects sections, and <a href="https://www.w3schools.com/default.asp">W3Schools</a> for their CSS guides.</p>
+    </section>
+
+    <section class="hero is-dark">
+        <div class="hero-body">
+            <div class="content has-text-centered">
+                <p>
+                    This website was made with <a href="https://bulma.io/">Bulma</a>, a free and open source CSS framework based on Flexbox.
+                </p>
+                <p>
+                    If you have any suggestions or improvements for this website, please feel free to let me know via my contact information above or otherwise file an issue on this website's <a href="https://github.com/hexalellogram/hexalellogram.github.io">GitHub repository</a>.
+                </p>
+            </div>            
         </div>
-
-    </div>
-
-  </body>
+    </section>
+    
 </html>
-

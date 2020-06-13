@@ -1,0 +1,19 @@
+.project-box {
+    background-color:hsl(0, 0%, 55%);
+    max-height: 100%;
+    width: 100%;
+}
+
+.project-image {
+    max-height: 25vh;
+    width: auto !important;
+}
+
+.experience-image {
+    max-height: 30vh;
+    width: auto !important;
+}
+
+.project-card {	
+    background-color:hsl(0, 0%, 90%);	
+}
