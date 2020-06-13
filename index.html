@@ -46,11 +46,11 @@
                         <a href="#work-experience" class="navbar-item">
                             <h1>Work Experience</h1>
                         </a>
-                        <a class="navbar-item">
+                        <a href="#volunteer-experience" class="navbar-item">
                             <h1>Volunteer Experience</h1>
                         </a>
                         <a class="navbar-item">
-                            <h1>Extracurriculars</h1>
+                            <h1>Other Activities</h1>
                         </a> 
                     </div>
                 </div>
@@ -395,6 +395,9 @@
     <section class="hero is-dark" id="education">
         <div class="hero-body">
             <h1 class="title">Education</h1>
+            <h2 class="subtitle">
+                Click any school for more details.
+            </h2>
             
             <div class="tile is-ancestor">
 
@@ -501,6 +504,9 @@
     <section class="hero is-dark" id="work-experience">
         <div class="hero-body">
             <h1 class="title">Work Experience</h1>
+            <h2 class="subtitle">
+                Click any job experience for more details.
+            </h2>
             
             <div class="tile is-ancestor">
 
@@ -665,6 +671,9 @@
     <section class="hero is-dark" id="volunteer-experience">
         <div class="hero-body">
             <h1 class="title">Volunteer Experience</h1>
+            <h2 class="subtitle">
+                Click any volunteer experience for more details.
+            </h2>
             
             <div class="tile is-ancestor">
 
@@ -969,6 +978,56 @@
                         </div>	
                     </div>	
                     <button class="modal-close is-large" aria-label="close" onclick="toggleModal('nylt-q-corps-modal');"></button>	
+                </div>
+
+            </div>
+
+            <div class="tile is-ancestor">
+
+                <div class="tile is-parent">
+                    <div class="level box project-box" onclick="toggleModal('cp-vhs-modal');">
+                        <div class="tile is-child has-text-centered">
+                            <figure class="image project-image is-inline-block mb-3">
+                                <img src="imgs/cyberpatriot.png" class="project-image">
+                            </figure>
+                            <h1 class="title has-text-centered">
+                                CyberPatriot Program at Valencia High School
+                            </h1>
+                            <h2 class="subtitle has-text-centered">
+                                Founding President
+                            </h2>
+                            <h2 class="subtitle has-text-centered">
+                                September 2015 - June 2019
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal" id="cp-vhs-modal">	
+                    <div class="modal-background" onclick="toggleModal('cp-vhs-modal');"></div>	
+                    <div class="modal-content">	
+                        <div class="card project-card mx-3">	
+                            <header class="card-header">	
+                                <p class="card-header-title">
+                                    CyberPatriot Program at Valencia High School
+                                </p>
+                            </header>	
+                            <div class="card-image mx-3 my-3">	
+                                <figure class="image">	
+                                    <img src="imgs/cyberpatriot.png">
+                                </figure>	
+                            </div>	
+                            <div class="card-content content">	
+                                <ul class="has-text-black">
+                                    <li>Location: Placentia, CA</li>
+                                    <li>Developed teaching curriculum for securing Windows and Linux workstations and servers, laying foundation for team's multi-year national semifinalist ranking.</li>
+                                    <li>Taught 70+ middle and high school students the above mentioned curriculum, helping others to achieve national semifinalist rank.</li>
+                                    <li>Completed logistical tasks for team administration.</li>
+                                </ul>
+                            </div>	
+                        </div>	
+                    </div>	
+                    <button class="modal-close is-large" aria-label="close" onclick="toggleModal('cp-vhs-modal');"></button>	
                 </div>
 
             </div>
