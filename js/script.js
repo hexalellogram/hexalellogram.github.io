@@ -25,6 +25,6 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 function toggleModal(el) {	
-  modal = document.getElementById(el);	
+  const modal = document.getElementById(el);	
   modal.classList.toggle("is-active");	
 }

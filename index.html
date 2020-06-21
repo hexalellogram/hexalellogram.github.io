@@ -69,7 +69,7 @@
                     <a href="Resume/BryceTsuyukiResume.pdf">
                         <button class="button is-link is-rounded">
                             <span class="icon">
-                                <i class="fa fa-download" aria-hidden="true"></i>
+                                <i class="fas fa-download" aria-hidden="true"></i>
                             </span>
                             <span>Download Resume (PDF)</span>
                         </button>
@@ -166,33 +166,58 @@
                         </a>
                     </h2>
                     <h2 class="subtitle">
-                        <a href="https://devpost.com/btsuyuki1">
-                            <!-- <i class="fa fa-code" aria-hidden="true"></i> -->
-                            <i class="fas fa-code" aria-hidden="true"></i>
-                            Devpost
+                        <a onclick="toggleModal('contact-modal');">
+                            <!-- <i class="fa fa-linkedin-square" aria-hidden="true"></i> -->
+                            <i class="fas fa-info-circle" aria-hidden="true"></i>
+                            More Contact Information
                         </a>
                     </h2>
-                    <h2 class="subtitle">
-                        <a href="https://m.me/bryce.tsuyuki">
-                            <!-- No FB Messenger Icon for Font Awesome 4.7.0 -->
-                            <i class="fab fa-facebook-messenger" aria-hidden="true"></i>
-                            Facebook Messenger
-                        </a>
-                    </h2>
-                    <h2 class="subtitle">
-                        <a href="https://t.me/hexalellogram">
-                            <!-- <i class="fa fa-telegram" aria-hidden="true"></i> -->
-                            <i class="fab fa-telegram" aria-hidden="true"></i>
-                            Telegram
-                        </a>
-                    </h2>
-                    <h2 class="subtitle">
-                        <a href="https://join.skype.com/invite/yyJ6t53cMumE">
-                            <!-- <i class="fa fa-skype" aria-hidden="true"></i> -->
-                            <i class="fab fa-skype" aria-hidden="true"></i>
-                            Skype
-                        </a>
-                    </h2>
+
+                    <div class="modal" id="contact-modal">	
+                        <div class="modal-background" onclick="toggleModal('contact-modal');"></div>	
+                        <div class="modal-content">	
+                            <div class="card project-card mx-3">	
+                                <header class="card-header">	
+                                    <p class="card-header-title">	
+                                        More Contact Information
+                                    </p>
+                                </header>		
+                                <div class="card-content content">
+                                    <div class="content">
+                                        <h2 class="subtitle">
+                                            <a href="https://devpost.com/btsuyuki1" class="has-text-black">
+                                                <!-- <i class="fa fa-code" aria-hidden="true"></i> -->
+                                                <i class="fas fa-code" aria-hidden="true"></i>
+                                                Devpost
+                                            </a>
+                                        </h2>
+                                        <h2 class="subtitle">
+                                            <a href="https://m.me/bryce.tsuyuki" class="has-text-black">
+                                                <!-- No FB Messenger Icon for Font Awesome 4.7.0 -->
+                                                <i class="fab fa-facebook-messenger" aria-hidden="true"></i>
+                                                FB Messenger
+                                            </a>
+                                        </h2>
+                                        <h2 class="subtitle">
+                                            <a href="https://t.me/hexalellogram" class="has-text-black">
+                                                <!-- <i class="fa fa-telegram" aria-hidden="true"></i> -->
+                                                <i class="fab fa-telegram" aria-hidden="true"></i>
+                                                Telegram
+                                            </a>
+                                        </h2>
+                                        <h2 class="subtitle">
+                                            <a href="https://join.skype.com/invite/yyJ6t53cMumE" class="has-text-black">
+                                                <!-- <i class="fa fa-skype" aria-hidden="true"></i> -->
+                                                <i class="fab fa-skype" aria-hidden="true"></i>
+                                                Skype
+                                            </a>
+                                        </h2>
+                                    </div>
+                                </div>	
+                            </div>	
+                        </div>	
+                        <button class="modal-close is-large" aria-label="close" onclick="toggleModal('contact-modal');"></button>	
+                    </div>
                 </div>
             </div>
         </div>

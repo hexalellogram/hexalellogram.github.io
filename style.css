@@ -18,3 +18,7 @@
     /* max-height: 10%; */
     width: auto !important;
 }
+
+.contact-modal-button {
+    background-color:hsl(217, 79%, 45%);
+}
