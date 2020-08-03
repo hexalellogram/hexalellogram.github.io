@@ -22,3 +22,17 @@
 .contact-modal-button {
     background-color:hsl(217, 79%, 45%);
 }
+
+.header-name {
+    font-family: 'Nova Square';
+    font-size: 150%;
+}
+
+.triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-left: 15px solid #FFFFFF;
+    border-bottom: 10px solid transparent;
+    padding-right: 10px;
+}
