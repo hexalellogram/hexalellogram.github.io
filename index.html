@@ -779,6 +779,52 @@
                 </div>
 
                 <div class="tile is-parent">
+                    <a class="level box project-box" onclick="toggleModal('youryear-modal');">
+                        <div class="tile is-child has-text-centered">
+                            <figure class="image project-image is-inline-block mb-3">
+                                <img src="imgs/youryear.png" class="project-image">
+                            </figure>
+                            <h1 class="title has-text-centered">
+                                YourYear
+                            </h1>
+                            <h2 class="subtitle has-text-centered">
+                                Strategic Product Manager
+                            </h2>
+                            <h2 class="subtitle has-text-centered">
+                                September 2020 - Present
+                            </h2>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="modal" id="youryear-modal">	
+                    <div class="modal-background" onclick="toggleModal('youryear-modal');"></div>	
+                    <div class="modal-content">	
+                        <div class="card project-card mx-3">	
+                            <header class="card-header">	
+                                <p class="card-header-title">
+                                    YourYear
+                                </p>
+                            </header>
+                            <div class="card-image mx-3 mt-3 has-text-centered">
+                                <figure class="image modal-image is-inline-block has-text-centered">
+                                    <img src="imgs/youryear.png" class="modal-image has-text-centered is-inline-block">	
+                                </figure>	
+                            </div>	
+                            <div class="card-content content">	
+                                <ul class="has-text-black">
+                                    <li>Location: San Diego, CA</li>
+                                    <li>Responsible for market research for our product, including creating and distributing surveys to UC San Diego students that would indicate the viability of our product.</li>
+                                    <li>Performed feature scoping to determine future features for our product, their target market, and the technical viability of these features.</li>
+                                    <li>Conducted competitor analysis for our product.</li>
+                                </ul>
+                            </div>	
+                        </div>	
+                    </div>	
+                    <button class="modal-close is-large" aria-label="close" onclick="toggleModal('youryear-modal');"></button>	
+                </div>
+
+                <div class="tile is-parent">
                     <a class="level box project-box" onclick="toggleModal('intelect-modal');">
                         <div class="tile is-child has-text-centered">
                             <figure class="image project-image is-inline-block mb-3">
@@ -825,6 +871,10 @@
                     </div>	
                     <button class="modal-close is-large" aria-label="close" onclick="toggleModal('intelect-modal');"></button>	
                 </div>
+
+            </div>
+
+            <div class="tile is-ancestor">
 
                 <div class="tile is-parent">
                     <a class="level box project-box" onclick="toggleModal('baycyber-modal');">
@@ -887,10 +937,6 @@
                     </div>	
                     <button class="modal-close is-large" aria-label="close" onclick="toggleModal('baycyber-modal');"></button>
                 </div>
-
-            </div>
-
-            <div class="tile is-ancestor">
 
                 <div class="tile is-parent">
                     <a class="level box project-box" onclick="toggleModal('csuf-modal');">
