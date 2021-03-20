@@ -37,10 +37,7 @@
                 <a href="#about-me" class="navbar-item">
                     <h1>About/Contact</h1>
                 </a>
-                <a href="#projects" class="navbar-item">
-                    <h1>Projects</h1>
-                </a>
-                <div href="#resume" class="navbar-item has-dropdown is-hoverable" id="onlineResumeDropdown">
+                <div class="navbar-item has-dropdown is-hoverable" id="onlineResumeDropdown">
                     <a class="navbar-link" data-target="onlineResumeDropdown">
                         Online Resume
                     </a>
@@ -54,6 +51,9 @@
                         </a>
                         <a href="#leadership-activities" class="navbar-item">
                             <h1>Leadership & Activities</h1>
+                        </a>
+                        <a href="#projects" class="navbar-item">
+                            <h1>Projects</h1>
                         </a>
                         <a href="#awards" class="navbar-item">
                             <h1>Awards</h1>
@@ -208,6 +208,446 @@
                     </div>
 
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero is-dark" id="education">
+        <div class="hero-body">
+            <h1 class="title">Education</h1>
+            <h2 class="subtitle">
+                Click any school for more details.
+            </h2>
+            
+            <div class="tile is-ancestor">
+
+                <div class="tile is-parent">
+                    <a class="level box project-box" onclick="toggleModal('ucsd-modal');">
+                        <div class="tile is-child has-text-centered">
+                            <figure class="image project-image is-inline-block mb-3">
+                                <img src="imgs/ucsd.png" class="project-image">
+                            </figure>
+                            <h1 class="title has-text-centered">
+                                University of California, San Diego
+                            </h1>
+                            <h2 class="subtitle has-text-centered">
+                                September 2019 - June 2023
+                            </h2>
+                            <h2 class="subtitle has-text-centered">
+                                Computer Science (B.S.), Political Science Minor
+                            </h2>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="modal" id="ucsd-modal">	
+                    <div class="modal-background" onclick="toggleModal('ucsd-modal');"></div>	
+                    <div class="modal-content">	
+                        <div class="card project-card mx-3">	
+                            <header class="card-header">	
+                                <p class="card-header-title">	
+                                    University of California San Diego
+                                </p>
+                            </header>	
+                            <div class="card-image mx-3 mt-3 has-text-centered">
+                                <figure class="image modal-image is-inline-block has-text-centered">
+                                    <img src="imgs/ucsd.png" class="modal-image has-text-centered is-inline-block">	
+                                </figure>	
+                            </div>	
+                            <div class="card-content content">	
+                                <ul class="has-text-black">
+                                    <li>Class of 2023</li>
+                                    <li>Location: San Diego, CA</li>
+                                    <li>Computer Science (B.S.), Political Science Minor</li>
+                                    <li>GPA: 3.96</li>
+                                    <li>Earl Warren College</li>
+                                    <li>UCSD Regents Scholar - awarded to entering undergraduate students based on academic excellence</li>
+                                    <li>Provost's Honors - awarded to undergraduate students based on academic excellence in previous quarters</li>
+                                    <li>Relevant Coursework</li>
+                                        <ul>
+                                            <li><a href="https://sites.google.com/eng.ucsd.edu/cse-11-fall-2019">CSE 11</a> - Introduction to Computer Science & Object-Oriented Programming: Java</li>
+                                            <li><a href="https://courses.ucsd.edu/coursemain.aspx?section=995058">CSE 12</a> - Basic Data Structures and Object Oriented Design (Java/C/C++)</li>
+                                            <li><a href="https://courses.ucsd.edu/coursemain.aspx?section=995058">CSE 15L</a> - Software Tools and Techniques Lab</li>
+                                            <li><a href="https://courses.ucsd.edu/coursemain.aspx?section=6347">CSE 30</a> - Computer Organization and Systems Programming (C/ARM Assembly)</li>
+                                            <li><a href="http://courses.ucsd.edu/coursemain.aspx?section=23329">CSE 140</a> - Components and Design Techniques for Digital Systems</li>
+                                            <li><a href="http://courses.ucsd.edu/coursemain.aspx?section=12036">CSE 140L</a> - Digital Systems Laboratory (SystemVerilog)</li>
+                                            <li><a href="http://courses.ucsd.edu/coursemain.aspx?section=30308">CSE 100</a> - Advanced Data Structures (C++)</li>
+                                        </ul>
+                                </ul>
+                            </div>	
+                        </div>	
+                    </div>	
+                    <button class="modal-close is-large" aria-label="close" onclick="toggleModal('ucsd-modal');"></button>	
+                </div>
+
+                <div class="tile is-parent">
+                    <a class="level box project-box" onclick="toggleModal('vhs-modal');">
+                        <div class="tile is-child has-text-centered">
+                            <figure class="image project-image is-inline-block mb-3">
+                                <img src="imgs/vhs.png" class="project-image">
+                            </figure>
+                            <h1 class="title has-text-centered">
+                                Valencia High School
+                            </h1>
+                            <h2 class="subtitle has-text-centered">
+                                September 2015 - June 2019
+                            </h2>
+                            <h2 class="subtitle has-text-centered">
+                                International Baccalaureate Diploma, Valencia Technology Diploma
+                            </h2>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="modal" id="vhs-modal">	
+                    <div class="modal-background" onclick="toggleModal('vhs-modal');"></div>	
+                    <div class="modal-content">	
+                        <div class="card project-card mx-3 my-3">	
+                            <header class="card-header">	
+                                <p class="card-header-title">	
+                                    Valencia High School
+                                </p>
+                            </header>	
+                            <div class="card-image mx-3 mt-3 has-text-centered">
+                                <figure class="image modal-image is-inline-block has-text-centered">
+                                    <img src="imgs/vhs.png" class="modal-image has-text-centered is-inline-block">	
+                                </figure>	
+                            </div>
+                            <div class="card-content content">	
+                                <ul class="has-text-black">
+                                    <li>Class of 2019</li>
+                                    <li>Location: Placentia, CA</li>
+                                    <li>International Baccalaureate Diploma</li>
+                                    <li>Valencia Technology Diploma, Computer Science Pathway</li>
+                                    <li>Unweighted GPA: 4.0</li>
+                                    <li>Tiger of the Year Finalist, 2019: Nominee for valedictorian-equivalent award</li>
+                                    <li>Relevant Coursework</li>
+                                        <ul>
+                                            <li>AP Computer Science A (Java)</li>
+                                            <li>IB Computer Science Higher Level (2 years, Java)</li>
+                                        </ul>
+                                </ul>
+                            </div>	
+                        </div>	
+                    </div>	
+                    <button class="modal-close is-large" aria-label="close" onclick="toggleModal('vhs-modal');"></button>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="hero is-dark" id="work-experience">
+        <div class="hero-body">
+            <h1 class="title">Work Experience</h1>
+            <h2 class="subtitle">
+                Click any job experience for more details.
+            </h2>
+            
+            <div class="tile is-ancestor">
+
+                <div class="tile is-parent">
+                    <a class="level box project-box" onclick="toggleModal('amazon-modal');">
+                        <div class="tile is-child has-text-centered">
+                            <figure class="image project-image is-inline-block mb-3">
+                                <img src="imgs/amazon.png" class="project-image">
+                            </figure>
+                            <h1 class="title has-text-centered">
+                                Amazon
+                            </h1>
+                            <h2 class="subtitle has-text-centered">
+                                Security Engineer Intern
+                            </h2>
+                            <h2 class="subtitle has-text-centered">
+                                June 2021 - September 2021
+                            </h2>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="modal" id="amazon-modal">	
+                    <div class="modal-background" onclick="toggleModal('amazon-modal');"></div>	
+                    <div class="modal-content">	
+                        <div class="card project-card mx-3">	
+                            <header class="card-header">	
+                                <p class="card-header-title">
+                                    Amazon
+                                </p>
+                            </header>	
+                            <div class="card-image mx-3 my-3">
+                                <figure class="image">	
+                                    <img src="imgs/amazon.png">	
+                                </figure>	
+                            </div>	
+                            <div class="card-content content">	
+                                <ul class="has-text-black">
+                                    <li>Location: Sunnyvale, CA</li>
+                                    <li>Incoming Amazon Security Engineer Intern for the Summer of 2021.</li>
+                                </ul>
+                            </div>	
+                        </div>	
+                    </div>	
+                    <button class="modal-close is-large" aria-label="close" onclick="toggleModal('amazon-modal');"></button>	
+                </div>
+
+                <div class="tile is-parent">
+                    <a class="level box project-box" onclick="toggleModal('cse-modal');">
+                        <div class="tile is-child has-text-centered">
+                            <figure class="image project-image is-inline-block mb-3">
+                                <img src="imgs/ucsd-cse.png" class="project-image">
+                            </figure>
+                            <h1 class="title has-text-centered">
+                                UCSD Computer Science and Engineering Department
+                            </h1>
+                            <h2 class="subtitle has-text-centered">
+                                Computer Science Tutor
+                            </h2>
+                            <h2 class="subtitle has-text-centered">
+                                January 2021 - Present
+                            </h2>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="modal" id="cse-modal">	
+                    <div class="modal-background" onclick="toggleModal('cse-modal');"></div>	
+                    <div class="modal-content">	
+                        <div class="card project-card mx-3">	
+                            <header class="card-header">	
+                                <p class="card-header-title">
+                                    UCSD Computer Science and Engineering Department
+                                </p>
+                            </header>	
+                            <div class="card-image mx-3 my-3">
+                                <figure class="image">	
+                                    <img src="imgs/ucsd-cse.png">	
+                                </figure>	
+                            </div>	
+                            <div class="card-content content">	
+                                <ul class="has-text-black">
+                                    <li>Location: San Diego, CA</li>
+                                    <li>Served as student tutor for CSE 12 (Basic Data Structures) and CSE 15L (Software Tools and Techniques) courses.</li>
+                                    <li>Taught concepts such as linked lists, stacks, queues, binary trees, hash tables, Linux command line, and Bash scripting.</li>
+                                    <li>Graded homework assignments and exams for correctness and code style where applicable.</li>
+                                    <li>Staffed weekly guided lab hours on topics like IDEs, Git, logging, Bash scripting, and Makefiles.</li>
+                                    <li>Held open lab hours each week where students could visit for help on assignments and course concepts.</li>
+                                    <li>Tutored for over 600 undergraduate students.</li>
+                                </ul>
+                            </div>	
+                        </div>	
+                    </div>	
+                    <button class="modal-close is-large" aria-label="close" onclick="toggleModal('cse-modal');"></button>	
+                </div>
+
+                <div class="tile is-parent">
+                    <a class="level box project-box" onclick="toggleModal('youryear-modal');">
+                        <div class="tile is-child has-text-centered">
+                            <figure class="image project-image is-inline-block mb-3">
+                                <img src="imgs/youryear.png" class="project-image">
+                            </figure>
+                            <h1 class="title has-text-centered">
+                                YourYear
+                            </h1>
+                            <h2 class="subtitle has-text-centered">
+                                Strategic Product Manager
+                            </h2>
+                            <h2 class="subtitle has-text-centered">
+                                September 2020 - Present
+                            </h2>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="modal" id="youryear-modal">	
+                    <div class="modal-background" onclick="toggleModal('youryear-modal');"></div>	
+                    <div class="modal-content">	
+                        <div class="card project-card mx-3">	
+                            <header class="card-header">	
+                                <p class="card-header-title">
+                                    YourYear
+                                </p>
+                            </header>
+                            <div class="card-image mx-3 mt-3 has-text-centered">
+                                <figure class="image modal-image is-inline-block has-text-centered">
+                                    <img src="imgs/youryear.png" class="modal-image has-text-centered is-inline-block">	
+                                </figure>	
+                            </div>	
+                            <div class="card-content content">	
+                                <ul class="has-text-black">
+                                    <li>Location: San Diego, CA</li>
+                                    <li>Responsible for market research for our product, including creating and distributing surveys to UC San Diego students that would indicate the viability of our product.</li>
+                                    <li>Created feature definitions to determine future features for our product, their target market, and the technical viability of these features.</li>
+                                    <li>Conducted competitor analysis and user interviews for our product.</li>
+                                    <li>Met with various stakeholders to determine the product's direction and scope.</li>
+                                </ul>
+                            </div>	
+                        </div>	
+                    </div>	
+                    <button class="modal-close is-large" aria-label="close" onclick="toggleModal('youryear-modal');"></button>	
+                </div>
+
+            </div>
+
+            <div class="tile is-ancestor">
+
+                <div class="tile is-parent">
+                    <a class="level box project-box" onclick="toggleModal('intelect-modal');">
+                        <div class="tile is-child has-text-centered">
+                            <figure class="image project-image is-inline-block mb-3">
+                                <img src="imgs/intelect.png" class="project-image">
+                            </figure>
+                            <h1 class="title has-text-centered">
+                                IntElect
+                            </h1>
+                            <h2 class="subtitle has-text-centered">
+                                Product Manager
+                            </h2>
+                            <h2 class="subtitle has-text-centered">
+                                April 2020 - September 2020
+                            </h2>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="modal" id="intelect-modal">	
+                    <div class="modal-background" onclick="toggleModal('intelect-modal');"></div>	
+                    <div class="modal-content">	
+                        <div class="card project-card mx-3">	
+                            <header class="card-header">	
+                                <p class="card-header-title">
+                                    IntElect
+                                </p>
+                            </header>	
+                            <div class="card-image mx-6 my-3">
+                                <!-- note: formatting here is fine so uses the old modal design -->
+                                <!-- note: IntElect logo has extra padding on the side, mx-6 instead of mx-3 -->
+                                <figure class="image">	
+                                    <img src="imgs/intelect.png">	
+                                </figure>	
+                            </div>	
+                            <div class="card-content content">	
+                                <ul class="has-text-black">
+                                    <li>Location: San Diego, CA</li>
+                                    <li>Responsible for market research for our product, including gathering demographic and academic statistics on University of California campuses.</li>
+                                    <li>Created and distributed surveys to UC San Diego students that would indicate the viability of our product.</li>
+                                    <li>Spearheaded a course matching program which matched key CS skills with 260+ university and online courses for undergraduates and job seekers.</li>
+                                </ul>
+                            </div>	
+                        </div>	
+                    </div>	
+                    <button class="modal-close is-large" aria-label="close" onclick="toggleModal('intelect-modal');"></button>	
+                </div>
+
+                <div class="tile is-parent">
+                    <a class="level box project-box" onclick="toggleModal('baycyber-modal');">
+                        <div class="tile is-child has-text-centered">
+                            <figure class="image project-image is-inline-block mb-3">
+                                <img src="imgs/baycyber.png" class="project-image">
+                            </figure>
+                            <h1 class="title has-text-centered">
+                                Bay Area Cyber League
+                            </h1>
+                            <h2 class="subtitle has-text-centered">
+                                Instructor
+                            </h2>
+                            <h2 class="subtitle has-text-centered">
+                                May 2019 - August 2019
+                            </h2>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="modal" id="baycyber-modal">	
+                    <div class="modal-background" onclick="toggleModal('baycyber-modal');"></div>	
+                    <div class="modal-content">	
+                        <div class="card project-card mx-3 my-3">	
+                            <header class="card-header">	
+                                <p class="card-header-title">	
+                                    Bay Area Cyber League
+                                </p>
+                            </header>	
+                            <div class="card-image mx-3 mt-3 has-text-centered">
+                                <figure class="image modal-image is-inline-block has-text-centered">
+                                    <img src="imgs/baycyber.png" class="modal-image has-text-centered is-inline-block">	
+                                </figure>	
+                            </div>
+                            <div class="card-content content">	
+                                <ul class="has-text-black">
+                                    <li>Location: San Jose, CA</li>
+                                    <li>Taught introductory and advanced cybersecurity skills summer camps for 30 middle and high school students per week.</li>
+                                    <li>Introductory cybersecurity summer camps subject topics:</li>
+                                        <ul>
+                                            <li>Digital footprint</li>
+                                            <li>Windows workstation security</li>
+                                            <li>Basic Linux command line skills</li>
+                                            <li>Digital forensics with Autopsy</li>
+                                            <li>Packet Tracer</li>
+                                            <li>Wireshark</li>
+                                        </ul>
+                                    <li>Advanced cybersecurity summer camps subject topics:</li>
+                                        <ul>
+                                            <li>Introduction to open source intelligence</li>
+                                            <li>Introduction to cryptography</li>
+                                            <li>OWASP Juice Shop</li>
+                                            <li>Basic Splunk</li>
+                                        </ul>
+                                    <li>Taught at 3 community colleges: Merritt College in Oakland, Evergreen Valley College in San Jose, and Foothill College Sunnyvale Center in Sunnyvale</li>
+                                    <li>Developed, tested, and deployed various online competitions involving 400+ students per week, reinforcing their cybersecurity skills</li>
+                                </ul>
+                            </div>	
+                        </div>	
+                    </div>	
+                    <button class="modal-close is-large" aria-label="close" onclick="toggleModal('baycyber-modal');"></button>
+                </div>
+
+                <div class="tile is-parent">
+                    <a class="level box project-box" onclick="toggleModal('csuf-modal');">
+                        <div class="tile is-child has-text-centered">
+                            <figure class="image project-image is-inline-block mb-3">
+                                <img src="imgs/csuf.png" class="project-image">
+                            </figure>
+                            <h1 class="title has-text-centered">
+                                CSUF Computer Science Department
+                            </h1>
+                            <h2 class="subtitle has-text-centered">
+                                Intern
+                            </h2>
+                            <h2 class="subtitle has-text-centered">
+                                June 2018 - August 2018
+                            </h2>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="modal" id="csuf-modal">
+                    <div class="modal-background" onclick="toggleModal('csuf-modal');"></div>	
+                    <div class="modal-content">	
+                        <div class="card project-card mx-3 my-3">	
+                            <header class="card-header">	
+                                <p class="card-header-title">	
+                                    CSUF Computer Science Department
+                                </p>
+                            </header>	
+                            <div class="card-image mx-3 my-3">	
+                                <!-- note: formatting here is fine so uses the old modal design -->
+                                <figure class="image">
+                                    <img src="imgs/csuf.png">	
+                                </figure>	
+                            </div>
+                            <div class="card-content content">	
+                                <ul class="has-text-black">
+                                    <li>Location: Fullerton, CA</li>
+                                    <li>Researched applications of cybersecurity in healthcare under Professor Shawn Wang to provide insight into youth views on healthcare data security.</li>
+                                    <li>Authored a collaborative report about the findings of this research which aided Professor Wang's research.</li>
+                                    <li>Compiled suggestions on compliance with government data security regulations and best practices for data security.</li>
+                                </ul>
+                            </div>	
+                        </div>	
+                    </div>	
+                    <button class="modal-close is-large" aria-label="close" onclick="toggleModal('csuf-modal');"></button>
+                </div>
+
             </div>
         </div>
     </section>
@@ -663,453 +1103,6 @@
             
         </div>
 
-    </section>
-
-    <section class="hero is-dark" id="resume">
-        <div class="hero-body">
-            <h1 class="title">Online Resume</h1>
-            <h1 class="subtitle">An online listing of my experiences and accomplishments. This online resume contains all of my education, work history, and other accomplishments, while the PDF resume linked above is a one page summary of the highlights.</h1>
-        </div>
-    </section>
-
-    <section class="hero is-dark" id="education">
-        <div class="hero-body">
-            <h1 class="title">Education</h1>
-            <h2 class="subtitle">
-                Click any school for more details.
-            </h2>
-            
-            <div class="tile is-ancestor">
-
-                <div class="tile is-parent">
-                    <a class="level box project-box" onclick="toggleModal('ucsd-modal');">
-                        <div class="tile is-child has-text-centered">
-                            <figure class="image project-image is-inline-block mb-3">
-                                <img src="imgs/ucsd.png" class="project-image">
-                            </figure>
-                            <h1 class="title has-text-centered">
-                                University of California, San Diego
-                            </h1>
-                            <h2 class="subtitle has-text-centered">
-                                September 2019 - June 2023
-                            </h2>
-                            <h2 class="subtitle has-text-centered">
-                                Computer Science (B.S.), Political Science Minor
-                            </h2>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="modal" id="ucsd-modal">	
-                    <div class="modal-background" onclick="toggleModal('ucsd-modal');"></div>	
-                    <div class="modal-content">	
-                        <div class="card project-card mx-3">	
-                            <header class="card-header">	
-                                <p class="card-header-title">	
-                                    University of California San Diego
-                                </p>
-                            </header>	
-                            <div class="card-image mx-3 mt-3 has-text-centered">
-                                <figure class="image modal-image is-inline-block has-text-centered">
-                                    <img src="imgs/ucsd.png" class="modal-image has-text-centered is-inline-block">	
-                                </figure>	
-                            </div>	
-                            <div class="card-content content">	
-                                <ul class="has-text-black">
-                                    <li>Class of 2023</li>
-                                    <li>Location: San Diego, CA</li>
-                                    <li>Computer Science (B.S.), Political Science Minor</li>
-                                    <li>GPA: 3.96</li>
-                                    <li>Earl Warren College</li>
-                                    <li>UCSD Regents Scholar - awarded to entering undergraduate students based on academic excellence</li>
-                                    <li>Provost's Honors - awarded to undergraduate students based on academic excellence in previous quarters</li>
-                                    <li>Relevant Coursework</li>
-                                        <ul>
-                                            <li><a href="https://sites.google.com/eng.ucsd.edu/cse-11-fall-2019">CSE 11</a> - Introduction to Computer Science & Object-Oriented Programming: Java</li>
-                                            <li><a href="https://courses.ucsd.edu/coursemain.aspx?section=995058">CSE 12</a> - Basic Data Structures and Object Oriented Design (Java/C/C++)</li>
-                                            <li><a href="https://courses.ucsd.edu/coursemain.aspx?section=995058">CSE 15L</a> - Software Tools and Techniques Lab</li>
-                                            <li><a href="https://courses.ucsd.edu/coursemain.aspx?section=6347">CSE 30</a> - Computer Organization and Systems Programming (C/ARM Assembly)</li>
-                                            <li><a href="http://courses.ucsd.edu/coursemain.aspx?section=23329">CSE 140</a> - Components and Design Techniques for Digital Systems</li>
-                                            <li><a href="http://courses.ucsd.edu/coursemain.aspx?section=12036">CSE 140L</a> - Digital Systems Laboratory (SystemVerilog)</li>
-                                            <li><a href="http://courses.ucsd.edu/coursemain.aspx?section=30308">CSE 100</a> - Advanced Data Structures (C++)</li>
-                                        </ul>
-                                </ul>
-                            </div>	
-                        </div>	
-                    </div>	
-                    <button class="modal-close is-large" aria-label="close" onclick="toggleModal('ucsd-modal');"></button>	
-                </div>
-
-                <div class="tile is-parent">
-                    <a class="level box project-box" onclick="toggleModal('vhs-modal');">
-                        <div class="tile is-child has-text-centered">
-                            <figure class="image project-image is-inline-block mb-3">
-                                <img src="imgs/vhs.png" class="project-image">
-                            </figure>
-                            <h1 class="title has-text-centered">
-                                Valencia High School
-                            </h1>
-                            <h2 class="subtitle has-text-centered">
-                                September 2015 - June 2019
-                            </h2>
-                            <h2 class="subtitle has-text-centered">
-                                International Baccalaureate Diploma, Valencia Technology Diploma
-                            </h2>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="modal" id="vhs-modal">	
-                    <div class="modal-background" onclick="toggleModal('vhs-modal');"></div>	
-                    <div class="modal-content">	
-                        <div class="card project-card mx-3 my-3">	
-                            <header class="card-header">	
-                                <p class="card-header-title">	
-                                    Valencia High School
-                                </p>
-                            </header>	
-                            <div class="card-image mx-3 mt-3 has-text-centered">
-                                <figure class="image modal-image is-inline-block has-text-centered">
-                                    <img src="imgs/vhs.png" class="modal-image has-text-centered is-inline-block">	
-                                </figure>	
-                            </div>
-                            <div class="card-content content">	
-                                <ul class="has-text-black">
-                                    <li>Class of 2019</li>
-                                    <li>Location: Placentia, CA</li>
-                                    <li>International Baccalaureate Diploma</li>
-                                    <li>Valencia Technology Diploma, Computer Science Pathway</li>
-                                    <li>Unweighted GPA: 4.0</li>
-                                    <li>Tiger of the Year Finalist, 2019: Nominee for valedictorian-equivalent award</li>
-                                    <li>Relevant Coursework</li>
-                                        <ul>
-                                            <li>AP Computer Science A (Java)</li>
-                                            <li>IB Computer Science Higher Level (2 years, Java)</li>
-                                        </ul>
-                                </ul>
-                            </div>	
-                        </div>	
-                    </div>	
-                    <button class="modal-close is-large" aria-label="close" onclick="toggleModal('vhs-modal');"></button>
-                </div>
-
-            </div>
-
-        </div>
-    </section>
-
-    <section class="hero is-dark" id="work-experience">
-        <div class="hero-body">
-            <h1 class="title">Work Experience</h1>
-            <h2 class="subtitle">
-                Click any job experience for more details.
-            </h2>
-            
-            <div class="tile is-ancestor">
-
-                <div class="tile is-parent">
-                    <a class="level box project-box" onclick="toggleModal('amazon-modal');">
-                        <div class="tile is-child has-text-centered">
-                            <figure class="image project-image is-inline-block mb-3">
-                                <img src="imgs/amazon.png" class="project-image">
-                            </figure>
-                            <h1 class="title has-text-centered">
-                                Amazon
-                            </h1>
-                            <h2 class="subtitle has-text-centered">
-                                Security Engineer Intern
-                            </h2>
-                            <h2 class="subtitle has-text-centered">
-                                June 2021 - September 2021
-                            </h2>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="modal" id="amazon-modal">	
-                    <div class="modal-background" onclick="toggleModal('amazon-modal');"></div>	
-                    <div class="modal-content">	
-                        <div class="card project-card mx-3">	
-                            <header class="card-header">	
-                                <p class="card-header-title">
-                                    Amazon
-                                </p>
-                            </header>	
-                            <div class="card-image mx-3 my-3">
-                                <figure class="image">	
-                                    <img src="imgs/amazon.png">	
-                                </figure>	
-                            </div>	
-                            <div class="card-content content">	
-                                <ul class="has-text-black">
-                                    <li>Location: Sunnyvale, CA</li>
-                                    <li>Incoming Amazon Security Engineer Intern for the Summer of 2021.</li>
-                                </ul>
-                            </div>	
-                        </div>	
-                    </div>	
-                    <button class="modal-close is-large" aria-label="close" onclick="toggleModal('amazon-modal');"></button>	
-                </div>
-
-                <div class="tile is-parent">
-                    <a class="level box project-box" onclick="toggleModal('cse-modal');">
-                        <div class="tile is-child has-text-centered">
-                            <figure class="image project-image is-inline-block mb-3">
-                                <img src="imgs/ucsd-cse.png" class="project-image">
-                            </figure>
-                            <h1 class="title has-text-centered">
-                                UCSD Computer Science and Engineering Department
-                            </h1>
-                            <h2 class="subtitle has-text-centered">
-                                Computer Science Tutor
-                            </h2>
-                            <h2 class="subtitle has-text-centered">
-                                January 2021 - Present
-                            </h2>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="modal" id="cse-modal">	
-                    <div class="modal-background" onclick="toggleModal('cse-modal');"></div>	
-                    <div class="modal-content">	
-                        <div class="card project-card mx-3">	
-                            <header class="card-header">	
-                                <p class="card-header-title">
-                                    UCSD Computer Science and Engineering Department
-                                </p>
-                            </header>	
-                            <div class="card-image mx-3 my-3">
-                                <figure class="image">	
-                                    <img src="imgs/ucsd-cse.png">	
-                                </figure>	
-                            </div>	
-                            <div class="card-content content">	
-                                <ul class="has-text-black">
-                                    <li>Location: San Diego, CA</li>
-                                    <li>Served as student tutor for CSE 12 (Basic Data Structures) and CSE 15L (Software Tools and Techniques) courses.</li>
-                                    <li>Taught concepts such as linked lists, stacks, queues, binary trees, hash tables, Linux command line, and Bash scripting.</li>
-                                    <li>Graded homework assignments and exams for correctness and code style where applicable.</li>
-                                    <li>Staffed weekly guided lab hours on topics like IDEs, Git, logging, Bash scripting, and Makefiles.</li>
-                                    <li>Held open lab hours each week where students could visit for help on assignments and course concepts.</li>
-                                    <li>Tutored for over 600 undergraduate students.</li>
-                                </ul>
-                            </div>	
-                        </div>	
-                    </div>	
-                    <button class="modal-close is-large" aria-label="close" onclick="toggleModal('cse-modal');"></button>	
-                </div>
-
-                <div class="tile is-parent">
-                    <a class="level box project-box" onclick="toggleModal('youryear-modal');">
-                        <div class="tile is-child has-text-centered">
-                            <figure class="image project-image is-inline-block mb-3">
-                                <img src="imgs/youryear.png" class="project-image">
-                            </figure>
-                            <h1 class="title has-text-centered">
-                                YourYear
-                            </h1>
-                            <h2 class="subtitle has-text-centered">
-                                Strategic Product Manager
-                            </h2>
-                            <h2 class="subtitle has-text-centered">
-                                September 2020 - Present
-                            </h2>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="modal" id="youryear-modal">	
-                    <div class="modal-background" onclick="toggleModal('youryear-modal');"></div>	
-                    <div class="modal-content">	
-                        <div class="card project-card mx-3">	
-                            <header class="card-header">	
-                                <p class="card-header-title">
-                                    YourYear
-                                </p>
-                            </header>
-                            <div class="card-image mx-3 mt-3 has-text-centered">
-                                <figure class="image modal-image is-inline-block has-text-centered">
-                                    <img src="imgs/youryear.png" class="modal-image has-text-centered is-inline-block">	
-                                </figure>	
-                            </div>	
-                            <div class="card-content content">	
-                                <ul class="has-text-black">
-                                    <li>Location: San Diego, CA</li>
-                                    <li>Responsible for market research for our product, including creating and distributing surveys to UC San Diego students that would indicate the viability of our product.</li>
-                                    <li>Created feature definitions to determine future features for our product, their target market, and the technical viability of these features.</li>
-                                    <li>Conducted competitor analysis and user interviews for our product.</li>
-                                    <li>Met with various stakeholders to determine the product's direction and scope.</li>
-                                </ul>
-                            </div>	
-                        </div>	
-                    </div>	
-                    <button class="modal-close is-large" aria-label="close" onclick="toggleModal('youryear-modal');"></button>	
-                </div>
-
-            </div>
-
-            <div class="tile is-ancestor">
-
-                <div class="tile is-parent">
-                    <a class="level box project-box" onclick="toggleModal('intelect-modal');">
-                        <div class="tile is-child has-text-centered">
-                            <figure class="image project-image is-inline-block mb-3">
-                                <img src="imgs/intelect.png" class="project-image">
-                            </figure>
-                            <h1 class="title has-text-centered">
-                                IntElect
-                            </h1>
-                            <h2 class="subtitle has-text-centered">
-                                Product Manager
-                            </h2>
-                            <h2 class="subtitle has-text-centered">
-                                April 2020 - September 2020
-                            </h2>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="modal" id="intelect-modal">	
-                    <div class="modal-background" onclick="toggleModal('intelect-modal');"></div>	
-                    <div class="modal-content">	
-                        <div class="card project-card mx-3">	
-                            <header class="card-header">	
-                                <p class="card-header-title">
-                                    IntElect
-                                </p>
-                            </header>	
-                            <div class="card-image mx-6 my-3">
-                                <!-- note: formatting here is fine so uses the old modal design -->
-                                <!-- note: IntElect logo has extra padding on the side, mx-6 instead of mx-3 -->
-                                <figure class="image">	
-                                    <img src="imgs/intelect.png">	
-                                </figure>	
-                            </div>	
-                            <div class="card-content content">	
-                                <ul class="has-text-black">
-                                    <li>Location: San Diego, CA</li>
-                                    <li>Responsible for market research for our product, including gathering demographic and academic statistics on University of California campuses.</li>
-                                    <li>Created and distributed surveys to UC San Diego students that would indicate the viability of our product.</li>
-                                    <li>Spearheaded a course matching program which matched key CS skills with 260+ university and online courses for undergraduates and job seekers.</li>
-                                </ul>
-                            </div>	
-                        </div>	
-                    </div>	
-                    <button class="modal-close is-large" aria-label="close" onclick="toggleModal('intelect-modal');"></button>	
-                </div>
-
-                <div class="tile is-parent">
-                    <a class="level box project-box" onclick="toggleModal('baycyber-modal');">
-                        <div class="tile is-child has-text-centered">
-                            <figure class="image project-image is-inline-block mb-3">
-                                <img src="imgs/baycyber.png" class="project-image">
-                            </figure>
-                            <h1 class="title has-text-centered">
-                                Bay Area Cyber League
-                            </h1>
-                            <h2 class="subtitle has-text-centered">
-                                Instructor
-                            </h2>
-                            <h2 class="subtitle has-text-centered">
-                                May 2019 - August 2019
-                            </h2>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="modal" id="baycyber-modal">	
-                    <div class="modal-background" onclick="toggleModal('baycyber-modal');"></div>	
-                    <div class="modal-content">	
-                        <div class="card project-card mx-3 my-3">	
-                            <header class="card-header">	
-                                <p class="card-header-title">	
-                                    Bay Area Cyber League
-                                </p>
-                            </header>	
-                            <div class="card-image mx-3 mt-3 has-text-centered">
-                                <figure class="image modal-image is-inline-block has-text-centered">
-                                    <img src="imgs/baycyber.png" class="modal-image has-text-centered is-inline-block">	
-                                </figure>	
-                            </div>
-                            <div class="card-content content">	
-                                <ul class="has-text-black">
-                                    <li>Location: San Jose, CA</li>
-                                    <li>Taught introductory and advanced cybersecurity skills summer camps for 30 middle and high school students per week.</li>
-                                    <li>Introductory cybersecurity summer camps subject topics:</li>
-                                        <ul>
-                                            <li>Digital footprint</li>
-                                            <li>Windows workstation security</li>
-                                            <li>Basic Linux command line skills</li>
-                                            <li>Digital forensics with Autopsy</li>
-                                            <li>Packet Tracer</li>
-                                            <li>Wireshark</li>
-                                        </ul>
-                                    <li>Advanced cybersecurity summer camps subject topics:</li>
-                                        <ul>
-                                            <li>Introduction to open source intelligence</li>
-                                            <li>Introduction to cryptography</li>
-                                            <li>OWASP Juice Shop</li>
-                                            <li>Basic Splunk</li>
-                                        </ul>
-                                    <li>Taught at 3 community colleges: Merritt College in Oakland, Evergreen Valley College in San Jose, and Foothill College Sunnyvale Center in Sunnyvale</li>
-                                    <li>Developed, tested, and deployed various online competitions involving 400+ students per week, reinforcing their cybersecurity skills</li>
-                                </ul>
-                            </div>	
-                        </div>	
-                    </div>	
-                    <button class="modal-close is-large" aria-label="close" onclick="toggleModal('baycyber-modal');"></button>
-                </div>
-
-                <div class="tile is-parent">
-                    <a class="level box project-box" onclick="toggleModal('csuf-modal');">
-                        <div class="tile is-child has-text-centered">
-                            <figure class="image project-image is-inline-block mb-3">
-                                <img src="imgs/csuf.png" class="project-image">
-                            </figure>
-                            <h1 class="title has-text-centered">
-                                CSUF Computer Science Department
-                            </h1>
-                            <h2 class="subtitle has-text-centered">
-                                Intern
-                            </h2>
-                            <h2 class="subtitle has-text-centered">
-                                June 2018 - August 2018
-                            </h2>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="modal" id="csuf-modal">
-                    <div class="modal-background" onclick="toggleModal('csuf-modal');"></div>	
-                    <div class="modal-content">	
-                        <div class="card project-card mx-3 my-3">	
-                            <header class="card-header">	
-                                <p class="card-header-title">	
-                                    CSUF Computer Science Department
-                                </p>
-                            </header>	
-                            <div class="card-image mx-3 my-3">	
-                                <!-- note: formatting here is fine so uses the old modal design -->
-                                <figure class="image">
-                                    <img src="imgs/csuf.png">	
-                                </figure>	
-                            </div>
-                            <div class="card-content content">	
-                                <ul class="has-text-black">
-                                    <li>Location: Fullerton, CA</li>
-                                    <li>Researched applications of cybersecurity in healthcare under Professor Shawn Wang to provide insight into youth views on healthcare data security.</li>
-                                    <li>Authored a collaborative report about the findings of this research which aided Professor Wang's research.</li>
-                                    <li>Compiled suggestions on compliance with government data security regulations and best practices for data security.</li>
-                                </ul>
-                            </div>	
-                        </div>	
-                    </div>	
-                    <button class="modal-close is-large" aria-label="close" onclick="toggleModal('csuf-modal');"></button>
-                </div>
-
-            </div>
-        </div>
     </section>
 
     <section class="hero is-dark" id="leadership-activities">
