@@ -808,6 +808,50 @@
             <div class="tile is-ancestor">
 
                 <div class="tile is-parent">
+                    <a class="level box project-box" onclick="toggleModal('amazon-modal');">
+                        <div class="tile is-child has-text-centered">
+                            <figure class="image project-image is-inline-block mb-3">
+                                <img src="imgs/amazon.png" class="project-image">
+                            </figure>
+                            <h1 class="title has-text-centered">
+                                Amazon
+                            </h1>
+                            <h2 class="subtitle has-text-centered">
+                                Security Engineer Intern
+                            </h2>
+                            <h2 class="subtitle has-text-centered">
+                                June 2021 - September 2021
+                            </h2>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="modal" id="amazon-modal">	
+                    <div class="modal-background" onclick="toggleModal('amazon-modal');"></div>	
+                    <div class="modal-content">	
+                        <div class="card project-card mx-3">	
+                            <header class="card-header">	
+                                <p class="card-header-title">
+                                    Amazon
+                                </p>
+                            </header>	
+                            <div class="card-image mx-3 my-3">
+                                <figure class="image">	
+                                    <img src="imgs/amazon.png">	
+                                </figure>	
+                            </div>	
+                            <div class="card-content content">	
+                                <ul class="has-text-black">
+                                    <li>Location: Sunnyvale, CA</li>
+                                    <li>Incoming Amazon Security Engineer Intern for the Summer of 2021.</li>
+                                </ul>
+                            </div>	
+                        </div>	
+                    </div>	
+                    <button class="modal-close is-large" aria-label="close" onclick="toggleModal('amazon-modal');"></button>	
+                </div>
+
+                <div class="tile is-parent">
                     <a class="level box project-box" onclick="toggleModal('cse-modal');">
                         <div class="tile is-child has-text-centered">
                             <figure class="image project-image is-inline-block mb-3">
@@ -903,6 +947,10 @@
                     <button class="modal-close is-large" aria-label="close" onclick="toggleModal('youryear-modal');"></button>	
                 </div>
 
+            </div>
+
+            <div class="tile is-ancestor">
+
                 <div class="tile is-parent">
                     <a class="level box project-box" onclick="toggleModal('intelect-modal');">
                         <div class="tile is-child has-text-centered">
@@ -950,10 +998,6 @@
                     </div>	
                     <button class="modal-close is-large" aria-label="close" onclick="toggleModal('intelect-modal');"></button>	
                 </div>
-
-            </div>
-
-            <div class="tile is-ancestor">
 
                 <div class="tile is-parent">
                     <a class="level box project-box" onclick="toggleModal('baycyber-modal');">
