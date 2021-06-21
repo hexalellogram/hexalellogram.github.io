@@ -31,3 +31,7 @@
 .hex-image {
     padding-right: 1vh;
 }
+
+.repo-link {
+    text-decoration: underline;
+}
