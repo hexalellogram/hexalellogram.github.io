@@ -357,6 +357,50 @@
             <div class="tile is-ancestor">
 
                 <div class="tile is-parent">
+                    <a class="level box project-box" onclick="toggleModal('meta-modal');">
+                        <div class="tile is-child has-text-centered">
+                            <figure class="image project-image is-inline-block mb-3">
+                                <img src="imgs/meta.png" class="project-image">
+                            </figure>
+                            <h1 class="title has-text-centered">
+                                Meta
+                            </h1>
+                            <h2 class="subtitle has-text-centered">
+                                Production Engineering Intern
+                            </h2>
+                            <h2 class="subtitle has-text-centered">
+                                September 2022 - December 2022
+                            </h2>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="modal" id="meta-modal">	
+                    <div class="modal-background" onclick="toggleModal('meta-modal');"></div>	
+                    <div class="modal-content">	
+                        <div class="card project-card mx-3">	
+                            <header class="card-header">	
+                                <p class="card-header-title">
+                                    Meta
+                                </p>
+                            </header>	
+                            <div class="card-image mx-3 my-3">
+                                <figure class="image">	
+                                    <img src="imgs/meta.png">	
+                                </figure>	
+                            </div>	
+                            <div class="card-content content">	
+                                <ul class="has-text-black">
+                                    <li>Location: Menlo Park</li>
+                                    <li>Incoming Production Engineering Intern for Fall 2022, working on the Warm Storage team.</li>
+                                </ul>
+                            </div>	
+                        </div>	
+                    </div>	
+                    <button class="modal-close is-large" aria-label="close" onclick="toggleModal('gusto-modal');"></button>	
+                </div>
+
+                <div class="tile is-parent">
                     <a class="level box project-box" onclick="toggleModal('gusto-modal');">
                         <div class="tile is-child has-text-centered">
                             <figure class="image project-image is-inline-block mb-3">
@@ -450,6 +494,10 @@
                     <button class="modal-close is-large" aria-label="close" onclick="toggleModal('amazon-modal');"></button>	
                 </div>
 
+            </div>
+
+            <div class="tile is-ancestor">
+
                 <div class="tile is-parent">
                     <a class="level box project-box" onclick="toggleModal('cse-modal');">
                         <div class="tile is-child has-text-centered">
@@ -498,10 +546,6 @@
                     </div>	
                     <button class="modal-close is-large" aria-label="close" onclick="toggleModal('cse-modal');"></button>	
                 </div>
-
-            </div>
-
-            <div class="tile is-ancestor">
 
                 <div class="tile is-parent">
                     <a class="level box project-box" onclick="toggleModal('youryear-modal');">
@@ -557,6 +601,58 @@
                     </div>	
                     <button class="modal-close is-large" aria-label="close" onclick="toggleModal('youryear-modal');"></button>	
                 </div>
+
+                <div class="tile is-parent">
+                    <a class="level box project-box" onclick="toggleModal('intelect-modal');">
+                        <div class="tile is-child has-text-centered">
+                            <figure class="image project-image is-inline-block mb-3">
+                                <img src="imgs/intelect.png" class="project-image">
+                            </figure>
+                            <h1 class="title has-text-centered">
+                                IntElect
+                            </h1>
+                            <h2 class="subtitle has-text-centered">
+                                Product Manager
+                            </h2>
+                            <h2 class="subtitle has-text-centered">
+                                April 2020 - September 2020
+                            </h2>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="modal" id="intelect-modal">	
+                    <div class="modal-background" onclick="toggleModal('intelect-modal');"></div>	
+                    <div class="modal-content">	
+                        <div class="card project-card mx-3">	
+                            <header class="card-header">	
+                                <p class="card-header-title">
+                                    IntElect
+                                </p>
+                            </header>	
+                            <div class="card-image mx-6 my-3">
+                                <!-- note: formatting here is fine so uses the old modal design -->
+                                <!-- note: IntElect logo has extra padding on the side, mx-6 instead of mx-3 -->
+                                <figure class="image">	
+                                    <img src="imgs/intelect.png">	
+                                </figure>	
+                            </div>	
+                            <div class="card-content content">	
+                                <ul class="has-text-black">
+                                    <li>Location: San Diego, CA</li>
+                                    <li>Responsible for market research for our product, including gathering demographic and academic statistics on University of California campuses.</li>
+                                    <li>Created and distributed surveys to UC San Diego students that would indicate the viability of our product.</li>
+                                    <li>Spearheaded a course matching program which matched key CS skills with 260+ university and online courses for undergraduates and job seekers.</li>
+                                </ul>
+                            </div>	
+                        </div>	
+                    </div>	
+                    <button class="modal-close is-large" aria-label="close" onclick="toggleModal('intelect-modal');"></button>	
+                </div>
+
+            </div>
+            
+            <div class="tile is-ancestor">
 
 
                 <div class="tile is-parent">
