@@ -1,28 +1,3 @@
-.project-box {
-    background-color:hsl(0, 0%, 55%);
-    max-height: 100%;
-    width: 100%;
-}
-
-.project-image {
-    max-height: 25vh;
-    width: auto !important;
-}
-
-.project-card {	
-    background-color:hsl(0, 0%, 90%);	
-}
-
-.modal-image {
-    max-width: 70%;
-    /* max-height: 10%; */
-    width: auto !important;
-}
-
-.contact-modal-button {
-    background-color:hsl(217, 79%, 45%);
-}
-
 .header-name {
     font-family: 'Nova Square';
     font-size: 150%;
@@ -30,6 +5,8 @@
 
 .hex-image {
     padding-right: 1vh;
+    display: flex;
+    align-content: center;
 }
 
 .ul-link {
